@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    color:white;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.container{
+    width:100%;
+}
+
+main{
+    width:100%;
+    height:100vh;
+    background-image: url(images/baner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+header{
+    width:100%;
+    height:auto;
+    background-color: rgba(0, 0, 0, 0.518);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    width: 80px;
+    border-radius: 25px;
+    padding:10px
+}
+
+header ul{
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px;
+    justify-content: right;
+    list-style: none;
+    position:relative
+}
+
+header ul li  {
+    margin:20px 20px 10px 10px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+header ul li a {
+    text-decoration: none;
+
+}
+
+.napis-Uniwerusm {
+    position:absolute;
+    top:30vh;
+    left:30vh;
+    padding:40px;
+    background-color: rgba(31, 27, 27, 0.625);
+    border-radius:25px;
+    font-size:2rem;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 0 20px 10px rgba(31, 29, 29, 0.64);
+}
+.napis-Uniwerusm h2{
+    padding:5px;
+    font-size: 1.5rem;
+}
+
+article{
+    height:auto
+}
+
+section{
+    height:600px;
+    background-color: rgb(12, 12, 15);
+}
