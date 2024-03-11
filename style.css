@@ -16,8 +16,7 @@ main {
     background-image: url(images/baner.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
-
+    background-size: cover; 
 }
 
 header {
@@ -77,11 +76,28 @@ header ul li a:hover::before {
     width: 100%;
 }
 
+.menu-img{
+    box-sizing: content-box;
+    display:none;
+    width:50px;
+    padding:20px
+}
+
+.in-banner{
+    padding-top:100px;
+    height:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:20px;
+}
+
 
 .napis-Uniwerusm {
-    position: absolute;
+    /*position: absolute;
     top: 30vh;
-    left: 30vh;
+    right:85vh;*/
     padding: 40px;
     background-color: rgba(31, 27, 27, 0.625);
     border-radius: 25px;
@@ -99,9 +115,9 @@ header ul li a:hover::before {
 .img-baner {
     width: 150px;
     height: auto;
-    position: absolute;
+    /*position: absolute;
     right: 15%;
-    top: 35%;
+    top: 35%;*/
     padding: 25px;
     background-color: rgba(18, 15, 15, 0.555);
     box-sizing: content-box;
@@ -158,4 +174,34 @@ article {
 section {
     height: 600px;
     background-color: black;
+}
+
+
+@media screen and (max-width:1000px) {
+    .menu-img{
+        display: block;
+    }
+
+    header ul{
+        display: none;
+    }
+
+    main{
+        height:130vh;
+    }
+
+    
+}
+
+@media screen and (max-width:450px){
+    .napis-Uniwerusm{
+        font-size: 1.5rem;
+        padding:20px;
+        width:85%;
+        font-size:1.6rem ;
+    }
+
+    .napis-Uniwerusm h2{
+        font-size: 1.1rem;
+    }
 }
