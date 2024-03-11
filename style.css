@@ -52,7 +52,12 @@ header ul li {
 
 header ul li a {
     text-decoration: none;
-    position: relative
+    position: relative;
+    transition: all 0.2s;
+}
+
+header ul li a:hover {
+    text-shadow: 0 0 2px white;
 }
 
 header ul li a::before {
@@ -68,6 +73,7 @@ header ul li a::before {
 header ul li a:hover::before {
     width: 100%;
 }
+
 
 .napis-Uniwerusm {
     position: absolute;
@@ -85,6 +91,64 @@ header ul li a:hover::before {
     padding: 5px;
     font-size: 1.5rem;
 }
+
+
+.img-baner {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    right: 15%;
+    top: 45%;
+    padding: 25px;
+    background-color: rgba(7, 7, 7, 0.555);
+    box-sizing: content-box;
+    /*border-radius: 15px;*/
+    border-top-left-radius: 25px 150px;
+    border-top-right-radius: 25px 150px;
+    border-bottom-left-radius: 25px 150px;
+    border-bottom-right-radius: 25px 150px;
+    text-align: center;
+    box-shadow: inset 0 0 10px 0px rgba(255, 255, 255, 0.747), 0 5px 20px 0 rgba(255, 255, 255, 0.836);
+    animation-name: img-baner-slide;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.img-baner img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid rgba(31, 32, 34, 0.667);
+}
+
+.img-banner p {
+    display: block;
+    background-color: rgba(7, 7, 7, 0.555);
+    padding: 20px;
+
+}
+
+
+@keyframes img-baner-slide {
+    0% {
+        transform: translateY(0);
+        box-shadow: inset 0 0 10px 0px rgba(255, 255, 255, 0.7), 0 5px 20px 0 rgba(255, 255, 255, 0.8);
+    }
+
+    50% {
+        transform: translateY(-40%);
+        box-shadow: inset 0 0 15px 0px rgba(255, 255, 255, 0.7), 0 5px 10px 0 rgba(255, 255, 255, 0.8);
+    }
+
+    100% {
+        transform: translateY(0);
+        box-shadow: inset 0 0 10px 0px rgba(255, 255, 255, 0.7), 0 5px 20px 0 rgba(255, 255, 255, 0.8);
+    }
+}
+
+
+/*? ARTICLE */
 
 article {
     height: auto
