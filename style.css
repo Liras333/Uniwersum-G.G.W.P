@@ -84,7 +84,7 @@ header ul li a:hover::before {
 }
 
 .in-banner{
-    padding-top:100px;
+    padding-top:80px;
     height:100%;
     display: flex;
     justify-content: space-around;
