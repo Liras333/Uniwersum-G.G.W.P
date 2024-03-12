@@ -16,7 +16,7 @@ main {
     background-image: url(images/baner.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
 }
 
 header {
@@ -76,21 +76,21 @@ header ul li a:hover::before {
     width: 100%;
 }
 
-.menu-img{
+.menu-img {
     box-sizing: content-box;
-    display:none;
-    width:50px;
-    padding:20px
+    display: none;
+    width: 50px;
+    padding: 20px
 }
 
-.in-banner{
-    padding-top:80px;
-    height:100%;
+.in-banner {
+    padding-top: 80px;
+    height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    gap:20px;
+    gap: 20px;
 }
 
 
@@ -168,40 +168,100 @@ header ul li a:hover::before {
 /*? ARTICLE */
 
 article {
-    height: auto
+    height: auto;
+    background-color: rgb(1, 1, 1);
 }
 
 section {
-    height: 600px;
-    background-color: black;
+    height: auto;
+    width: 75%;
+    margin: auto;
+}
+
+section h1 {
+    font-size: 3rem;
+    padding: 50px;
+}
+
+section .info h2 {
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2.2rem;
+    padding: 10px 10px 20px;
+}
+
+section p {
+    font-size: 1.2rem;
+    line-height: 150%;
+    padding: 20px;
+}
+
+section li {
+    line-height: 200%;
+}
+
+.informacje {
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.info {
+    width: 90%;
+    padding: 15px;
+    margin: 20px 10px;
+    background-color: rgb(5, 5, 5);
+    border-radius: 15px 40px 15px
 }
 
 
+
+/*? MEEDIA */
+
 @media screen and (max-width:1000px) {
-    .menu-img{
+    .menu-img {
         display: block;
     }
 
-    header ul{
+    header ul {
         display: none;
     }
 
-    main{
-        height:130vh;
+    main {
+        height: 130vh;
     }
 
-    
+
 }
 
-@media screen and (max-width:450px){
-    .napis-Uniwerusm{
+@media screen and (max-width:450px) {
+    .napis-Uniwerusm {
         font-size: 1.5rem;
-        padding:20px;
-        width:85%;
-        font-size:1.6rem ;
+        padding: 20px;
+        width: 85%;
+        font-size: 1.6rem;
     }
 
-    .napis-Uniwerusm h2{
+    section {
+        width: 95%
+    }
+
+
+
+    .napis-Uniwerusm h2 {
         font-size: 1.1rem;
+    }
+
+    section h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .napis-Uniwerusm h1 {
+        font-size: 2.3rem;
     }
 }
