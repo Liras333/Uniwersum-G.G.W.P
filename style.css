@@ -23,6 +23,7 @@ header {
     width: 100%;
     height: auto;
     background-color: rgba(0, 0, 0, 0.55);
+    backdrop-filter: blur(1.5px);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,9 +48,10 @@ header ul {
 }
 
 header ul li {
-    margin: 20px 20px 10px 10px;
+    padding: 20px 20px 10px 10px;
     font-size: 1.3em;
     font-weight: bold;
+    position: relative;
 }
 
 header ul li a {
@@ -75,6 +77,52 @@ header ul li a::before {
 header ul li a:hover::before {
     width: 100%;
 }
+
+
+.header-nav li ul {
+    display: none;
+    text-align: left;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px
+}
+
+.header-nav li:hover ul {
+    display: block;
+    position: absolute;
+    animation-name: header-nav;
+    animation-duration: 0.3s;
+}
+
+.header-nav li ul {
+    width: 200px;
+    transform: translateX(-20%);
+    border-radius: 10px;
+    background-color: rgba(31, 31, 31, 0.491);
+    backdrop-filter: blur(5px);
+    padding-bottom: 5px 2px;
+}
+
+.header-nav li ul li {
+    padding-top: 0;
+}
+
+.header-nav li ul a {
+    display: block;
+    padding: 10px;
+}
+
+@keyframes header-nav {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
 
 .menu-img {
     box-sizing: content-box;
@@ -178,9 +226,13 @@ section {
     margin: auto;
 }
 
+.opis-o-uniwersum {
+    margin: 10px;
+}
+
 section h1 {
     font-size: 3rem;
-    padding: 50px;
+    padding: 50px 20px 20px 20px;
 }
 
 section .info h2 {
@@ -210,16 +262,74 @@ section li {
 }
 
 .info {
+    position: relative;
+    transform: translateY(120px);
+    opacity: 0;
     width: 90%;
     padding: 15px;
     margin: 20px 10px;
-    background-color: rgb(5, 5, 5);
-    border-radius: 15px 40px 15px
+    background-color: rgb(10, 10, 10);
+    border-radius: 15px 40px 15px;
+    transition: all 2s ease;
+}
+
+.info-active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline img {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.timeline p {
+    padding: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+
+/*? FOOTER */
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: rgb(7, 6, 5);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px;
+}
+
+
+
+footer ul {
+    margin: 0;
+    padding: 0
+}
+
+footer ul li {
+    list-style: none;
+    padding: 2px;
 }
 
 
 
 /*? MEEDIA */
+
+@media screen and (max-width:1260px) {
+    .timeline img {
+        width: 800px;
+    }
+}
 
 @media screen and (max-width:1000px) {
     .menu-img {
@@ -233,9 +343,21 @@ section li {
     main {
         height: 130vh;
     }
-
-
 }
+
+@media screen and (max-width:900px) {
+    .timeline img {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .timeline img {
+        width: 350px;
+        padding: 0 0 20px 0
+    }
+}
+
 
 @media screen and (max-width:450px) {
     .napis-Uniwerusm {
@@ -249,8 +371,6 @@ section li {
         width: 95%
     }
 
-
-
     .napis-Uniwerusm h2 {
         font-size: 1.1rem;
     }
@@ -258,10 +378,20 @@ section li {
     section h1 {
         font-size: 2rem;
     }
+
+    footer div {
+        width: 100%;
+        text-align: center
+    }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 360px) {
     .napis-Uniwerusm h1 {
         font-size: 2.3rem;
+    }
+
+    .timeline img {
+        width: 250px;
+        padding: 0 0 20px 0
     }
 }
