@@ -14,4 +14,35 @@ function reveal() {
     }
 }
 
+function menu_click() {
+    const menu_on = document.querySelector('.menu-img');
+    const header_mobile = document.querySelector('.header-mobile');
+    header_mobile.animate([
+        { transform: 'translateX(100%)' },
+        { transform: 'translateX(0)' }
+    ], {
+        duration: 100,
+    });
+
+    menu_on.style.display = "none";
+    header_mobile.style.display = "block";
+}
+
+function menu_click2() {
+    const menu_off = document.querySelector('.close-img');
+    const menu_on = document.querySelector('.menu-img');
+    const header_mobile = document.querySelector('.header-mobile');
+    header_mobile.animate([
+        { transform: 'translateX(0)' },
+        { transform: 'translateX(100%)' }
+    ], {
+        duration: 100,
+    });
+
+    setTimeout(function () {
+        menu_on.style.display = "block";
+        header_mobile.style.display = "none";
+    }, 80)
+}
+
 
