@@ -18,8 +18,14 @@ function menu_click() {
     const menu_on = document.querySelector('.menu-img');
     const header_mobile = document.querySelector('.header-mobile');
     header_mobile.animate([
-        { transform: 'translateX(100%)' },
-        { transform: 'translateX(0)' }
+        {
+            transform: 'translateX(100%)',
+            opacity: '0'
+        },
+        {
+            transform: 'translateX(0)',
+            opacity: '1'
+        }
     ], {
         duration: 100,
     });
@@ -33,8 +39,14 @@ function menu_click2() {
     const menu_on = document.querySelector('.menu-img');
     const header_mobile = document.querySelector('.header-mobile');
     header_mobile.animate([
-        { transform: 'translateX(0)' },
-        { transform: 'translateX(100%)' }
+        {
+            transform: 'translateX(0)',
+            opacity: '1'
+        },
+        {
+            transform: 'translateX(100%)',
+            opacity: '1'
+        }
     ], {
         duration: 100,
     });

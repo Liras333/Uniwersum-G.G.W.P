@@ -151,7 +151,7 @@ header ul li a:hover::before {
 .header-mobile .header-mobile-elements {
     padding: 10px;
     margin: 15px 10px;
-    background-color: rgba(15, 13, 13, 0.5);
+    background-color: rgba(28, 24, 24, 0.5);
     border-radius: 15px 5px 10px;
 }
 
@@ -168,6 +168,7 @@ header ul li a:hover::before {
 
 .header-mobile li {
     list-style: none;
+    margin-left: 10px;
 }
 
 .header-mobile a {
@@ -177,6 +178,18 @@ header ul li a:hover::before {
     font-size: 1.1rem;
     font-weight: 500;
     padding: 10px;
+
+}
+
+.header-mobile a::before {
+    content: '';
+    position: absolute;
+    width: 2.5px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: white;
+    transform: translate(-300%);
+
 }
 
 .div-close {
