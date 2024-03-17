@@ -1,5 +1,6 @@
 header {
     height: auto;
+
 }
 
 main {
@@ -10,6 +11,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 50vh
 }
 
 input {
@@ -25,9 +27,9 @@ input {
 select {
     background-color: rgb(53, 45, 38);
     border: 3px solid rgb(33, 22, 22);
-    color:rgb(186, 186, 186);
+    color: rgb(186, 186, 186);
     height: 40px;
-    padding:5px;
+    padding: 5px;
     margin: 20px 0;
     font-size: 1rem;
 }
@@ -71,9 +73,10 @@ section a {
     margin: 20px 0;
 }
 
-@media screen and (max-width:680px){
+@media screen and (max-width:680px) {
+
     input,
-    select{
+    select {
         margin: 5px;
     }
 }

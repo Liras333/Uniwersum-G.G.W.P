@@ -1,18 +1,18 @@
 const input = document.querySelector('input');
 input.addEventListener('input', search)
 
-function search(){
+function search() {
     const searchText = input.value.toLowerCase();
     const postacie = document.querySelectorAll('.link-postac');
     postacie.forEach(postac => {
         const p = postac.querySelector('.opis-postaci .nazwa');
 
-        if(p) {
+        if (p) {
             const headerText = postac.textContent.toLowerCase();
 
-            if(headerText.includes(searchText)) {
+            if (headerText.includes(searchText)) {
                 postac.style.display = "block"
-            }else{
+            } else {
                 postac.style.display = "none";
             }
         }
@@ -22,14 +22,14 @@ function search(){
 //sortowanie
 
 
-function sortuj(){
-    const select = document.querySelector('select'); 
+function sortuj() {
+    const select = document.querySelector('select');
     const container = document.querySelector('.container2');
     postacie = Array.from(container.children);
     console.log(select.value)
 
-    if(select.value == 'old') {
-        
+    if (select.value == 'old') {
+
         postacie.reverse();
         console.log(postacie);
         container.innerHTML = "";
@@ -37,18 +37,16 @@ function sortuj(){
         postacie.forEach(postac => {
             container.appendChild(postac)
         })
-    }else if(select.value == 'new'){
-        if(postacie[0].text.indexOf('Nooga') != -1){
+    } else if (select.value == 'new') {
+        if (postacie[0].text.indexOf('Nooga') != -1) {
             postacie.reverse();
             console.log(postacie);
             container.innerHTML = "";
-    
+
             postacie.forEach(postac => {
                 container.appendChild(postac)
             })
         }
-        
     }
-
-
 }
+
