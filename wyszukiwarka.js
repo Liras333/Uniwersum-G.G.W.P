@@ -8,7 +8,7 @@ function search() {
         const p = postac.querySelector('.opis-postaci .nazwa');
 
         if (p) {
-            const headerText = postac.textContent.toLowerCase();
+            const headerText = p.textContent.toLowerCase();
 
             if (headerText.includes(searchText)) {
                 postac.style.display = "block"
