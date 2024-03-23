@@ -50,6 +50,8 @@ function sortuj() {
     }
 }
 
+//back to up
+
 document.addEventListener('scroll', scrolls);
 
 function scrolls() {
