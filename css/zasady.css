@@ -1,0 +1,77 @@
+main {
+    height: 30vh
+}
+
+
+.tresc {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.spis-tresci {
+    margin: 15px 0 0 10px;
+    padding: 10px 20px 20px 25px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(12, 12, 12);
+}
+
+.spis-tresci ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.spis-tresci h3 {
+    text-align: center;
+    margin: 5px 0
+}
+
+.spis-tresci li {
+    background-color: rgb(19, 19, 19);
+}
+
+.spis-tresci li:nth-child(even) {
+    background-color: rgb(14, 14, 14);
+}
+
+.spis-tresci li:first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.spis-tresci li:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.spis-tresci a {
+    display: block;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+.spis-tresci a:hover {
+    background-color: rgba(40, 40, 40, 0.5);
+}
+
+.opis-gatewayBloodshed {
+    width: 750px;
+}
+
+.opis-gatewayBloodshed p {
+    background-color: rgb(7, 7, 7);
+    border-radius: 10px;
+}
+
+.opis-gatewayBloodshed h2 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
