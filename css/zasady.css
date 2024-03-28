@@ -1,14 +1,20 @@
+html {
+    scroll-behavior: smooth;
+}
+
 main {
     height: 30vh
 }
 
+section {
+    background: linear-gradient(10deg, rgb(5, 5, 5), rgb(1, 1, 1));
+}
 
 .tresc {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-
 }
 
 .spis-tresci {
@@ -61,11 +67,13 @@ main {
 
 .opis-gatewayBloodshed {
     width: 750px;
+    margin: 20px;
 }
 
 .opis-gatewayBloodshed p {
     background-color: rgb(7, 7, 7);
     border-radius: 10px;
+    margin-top: 10px;
 }
 
 .opis-gatewayBloodshed h2 {
@@ -74,4 +82,34 @@ main {
 
 h1 {
     text-align: center;
+    margin: 20px 0;
+}
+
+.zasady {
+    width: 97%;
+    margin: 0 auto
+}
+
+.zasada {
+    padding: 20px;
+}
+
+
+.zasada li {
+    padding: 10px;
+}
+
+.zasada ul li:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgb(203, 194, 172);
+    text-shadow: 0 0 5px rgba(196, 190, 153, 0.1);
+}
+
+.zasada h3 {
+    font-size: 24px;
+    padding: 10px;
+}
+
+#talie ul li {
+    padding: 7px 0
 }

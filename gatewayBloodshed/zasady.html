@@ -86,40 +86,276 @@
         </main>
 
         <article>
-            <section class="zasady">
+            <section>
                 <div class="tresc">
                     <div class="spis-tresci">
                         <h3>Spis treści</h3>
                         <ul>
                             <li><a href="">O Gateway Bloodshed</a></li>
-                            <li><a href="">Rdzeń</a></li>
-                            <li><a href="">Karty</a></li>
-                            <li><a href="">Fazy</a></li>
-                            <li><a href="">Zasady budowy talii</a></li>
-                            <li><a href="">Zdolności kart</a></li>
+                            <li><a href="#rdzen">Rdzeń</a></li>
+                            <li><a href="#karty">Karty</a></li>
+                            <li><a href="#fazy">Fazy Tury</a></li>
+                            <li><a href="#talie">Zasady budowy talii</a></li>
+                            <li><a href="#zdolnosci">Zdolności kart</a></li>
                         </ul>
                     </div>
                     <div class="opis-gatewayBloodshed">
                         <h2>O Gateway Bloodshed</h2>
                         <p>Gateway Bloodshed to gra karciana, oparta o postacie, światy i wszystko co jest powiązane z
-                            Uniwersum G.G.W.P.. Poniżej znajdziesz informacje jak grać w Gateway Bloodshed
+                            Uniwersum G.G.W.P.. Poniżej znajdziesz informacje jak grać w Gateway Bloodshed.
                         </p>
                     </div>
                 </div>
-                <h1>Zasady do gry w GatewayBloodshed</h1>
-                <h2>Rdzeń</h2>
-                <ul>
-                    <li> Na stole występują 4 pola bitwy, po 1 na każy portal. Przyzwane jednostki możesz przydzielić do
-                        1 z tych lokacji (do obrony twoich lub ataku wrogich portali).</li>
-                    <li> Wygrywa gracz który zniszczy oba portale wroga.</li>
-                    <li> Energia - Co ture dotajesz 1 energie. Bazowo 1 niezużyta energia przechodzi na następną turę.
-                    </li>
-                    <li> Portale - Bazowo każdy portal ma 20 pkt zdrowia. Każdy portal pozwala na przyzwanie 2 jednostki
-                        na turę. Po zniszczeniu portalu dostajesz na stałe dodatkowe 2 pkt energi na turę. Każdy portal
-                        reprezentuje inną nację (nacje nie mogą się powtarzać na gracza). Jeżeli podczas ataku twój
-                        poratl miałby zostać zniszczony, to MUSISZ zablokować atak wszystkimi dostnępnymi jednostkami.
-                        Po zniszczeniu portalu wszystkie karty w tej lokacji są zniszczone.</li>
-                </ul>
+                <div class="zasady">
+                    <h1>Zasady do Gateway Bloodshed</h1>
+                    <div id="rdzen" class="zasada">
+                        <h2>Rdzeń</h2>
+                        <ul>
+                            <li> Na stole występują 4 pola bitwy, po 1 na każdy <strong>portal</strong>. Przyzwane
+                                jednostki możesz przydzielić do 1 z tych <strong>lokacji</strong> (do obrony twoich lub
+                                ataku wrogich
+                                portali).
+                            </li>
+                            <li> Wygrywa gracz który zniszczy oba portale wroga.
+
+                            </li>
+                            <li> <strong>Energia</strong> - Co ture dotajesz 1 energie. Bazowo 1 niezużyta energia
+                                przechodzi na następną
+                                turę.
+                            </li>
+                            <li> <strong>Portale </strong>- Bazowo każdy portal ma 20 pkt zdrowia. Każdy portal pozwala
+                                na przyzwanie 2
+                                jednostki
+                                na turę. Po zniszczeniu portalu dostajesz na stałe dodatkowe 2 pkt energi na turę. Każdy
+                                portal
+                                reprezentuje inną nację (nacje nie mogą się powtarzać na gracza). Jeżeli podczas ataku
+                                twój
+                                poratl miałby zostać zniszczony, to MUSISZ zablokować atak wszystkimi dostnępnymi
+                                jednostkami.
+                                Po zniszczeniu portalu wszystkie karty w tej lokacji są zniszczone.
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="karty" class="zasada">
+                        <h2>Karty</h2>
+                        <ul>
+                            <li>
+                                <strong>Jednostki </strong>- Zagrywanie ich wymaga energii. Podstawowe staystyki
+                                jednostki to: sła,
+                                życie, potencjał magiczny. Jednostka może mieć dodatkowe zdolności pasywne kub
+                                aktywowane opisane na karcie.
+                            </li>
+                            <li>
+                                <strong>Potencjał magiczny</strong> - Jednostka z danym potencjałem magicznym pozwala na
+                                zagranie kart
+                                zaklęć o koszcie mniejszym lub równym potencjałowi tej jednostki. Po zagraniu karty
+                                zaklęć jednostka wykorzystana do zagrania tej karty zostaje stapowana. Jednostka może
+                                zagrać kilka zaklęć w jednej turze, jeśli pozwala jej na to potencjał magiczny.
+                            </li>
+                            <li>
+                                <strong>Inkarnacje</strong> - Są to jednostki przyzywane za pomocą many. Aby ją przyzwać
+                                należy stapować
+                                jednostkę z potencjałem magicznym równym lub większym do kosztu inkarnacji. Jest ona
+                                przyzwana w tej samej lokacji co jednostka, która ją przyzywa.
+                            </li>
+                            <li>
+                                <strong>Budowle</strong> - Przyzywane są tylko po twojej stronie (przy jednym z twoich
+                                portali).
+                                Zagrywanie ich wymaga energii. Budowle posiadają określone zdrowie, i posiadają efekty
+                                pasywne lub aktywowane.
+                            </li>
+                            <li>
+                                <strong>Zaklęcia</strong> - Mogą być zagrywane tylko poprzez jednostki o wystarczająco
+                                dużym potencjale
+                                magicznym. Do zagrania zaklęcia należy stapować jednostkę wykorzystaną do jej zagrania.
+                                Karty zaklęć mogą mieć efekty zarówno ofensywne jak i defensywne.
+                            </li>
+                            <li>
+                                <strong>Błyskawiczne</strong> - W przeciwnieństwie do zwykłych zaklęć, możesz dodatkowo
+                                zagrać te
+                                zaklęcia w dowolnym momencie w fazie walki (swojej lub wroga). Jeżeli jest rzucone w
+                                turze przeciwnika, to może być rzucone tylko w odpowiedzi na jego zagranie.
+                            </li>
+                            <li>
+                                <strong>Działania</strong> - Zagrywanie ich wymaga energii. Są podobne do kart zaklęć
+                                ale nie wymagają
+                                jednostek do ich zagrywania. Karty działań mogą mieć efekty zarówno ofensywne jak i
+                                defensywne.
+                            </li>
+                            <li>
+                                <strong>Rzadkość kart</strong>:
+                                <ul>
+                                    <li><strong>Dowódca</strong>, (dowódcy są legendarni ale nie liczą się do limitu )
+                                        (Czerwone obramowanie)
+                                    </li>
+                                    <li>
+                                        <strong>Legendarne</strong>, (Złote obramowanie)
+                                    </li>
+                                    <li>
+                                        <strong>Rzadkie</strong>, (Fioletowe obramowanie)
+                                    </li>
+                                    <li>
+                                        <strong>Zwykłe</strong> (Czarne obramowanie)
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="fazy" class="zasada">
+                        <h2>Fazy Tury</h2>
+                        <ul>
+                            <li>
+                                <strong>Początek tury</strong> - Na początku tury zostają odtapowane wszystkie karty, po
+                                czym dobierasz 1
+                                kartę ze swojej talii oraz otrzymujesz energię ze wszystkich swoich źródeł.
+                            </li>
+                            <li>
+                                <strong>Faza przyzywania</strong> - W tej fazie możesz zagrywać karty jednostek (max 2
+                                na portal) oraz
+                                karty budowli, zaklęć i działań.
+                            </li>
+                            <li>
+                                <strong>Faza przydziału</strong> - W tej fazie możesz przydzielić swoje jednostki z
+                                twoich lokacji do
+                                jednej z 4 lokacji. Po przydzieleniu Jednostka musi odczekać turę zanim będzie mogła
+                                atakować, używać zdolności aktywowanych lub rzucać zaklęcia.
+                            </li>
+                            <li>
+                                <strong>Faza walki</strong> - W tej fazie każda z jednostek może po koleji zaatakować
+                                wybraną wrogą
+                                jednostkę lub budowlę (portal traktowany jest jako budowla). W przypadku zaatakowania
+                                jednostki wymieniają się one obrażeniami. Bazowo jednostka może akować tylko raz na
+                                turę, i tylko cele które znajdują się w tej samej lokacji.
+                            </li>
+                            <li>
+                                <strong>Koniec tury</strong> - Po zakończeniu ataku nastepuje koniec tury, ewentualne
+                                efekty mogą mieć
+                                teraz miejsce.
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="talie" class="zasada">
+                        <h2>Zasady Budowy Talii</h2>
+                        <h3>Budowa talii na grę <strong>Multi</strong></h3>
+                        <ul>
+                            <li>
+                                Każda talia musi mieć 40 kart.
+                            </li>
+                            <li>
+                                Każda talia musi mieć 1 dowódcę. (tylko jedna nacja).
+                            </li>
+                            <li>
+                                Można grać max 4 karty legendarnyce, max po 1 kopii tej samej karty.
+                            </li>
+                            <li>
+                                Można grać max. 8 kart rzadkich, max. po 2 kopie tej samej karty.
+                            </li>
+                            <li>
+                                Można grać dowolną ilość kart zwykłych, ale max po 3 kopie tej samej karty.
+                            </li>
+                            <li>
+                                Każdy gracz dobiera 1 kartę na turę.
+                            </li>
+                        </ul>
+                        <h3>Budowa talii na grę <strong>Single</strong></h3>
+                        <ul>
+                            <li>
+                                Każda talia musi mieć 60 kart
+                            </li>
+                            <li>
+                                Każda talia musi mieć dwóch dowódców po 1 na frakcję. (dwie nacje)
+                            </li>
+                            <li>
+                                Można grać max 6 kart legendarnych, max po 1 kopii tej samej karty.
+                            </li>
+                            <li>
+                                Można grać max 12 kart rzadkich, max po 2 kopie tej samej karty.
+                            </li>
+                            <li>
+                                Można grać dowolną ilość kart zwykłych, ale max po 3 kopie tej samej karty.
+                            </li>
+                            <li>
+                                Każdy gracz dobiera 1 kartę, po 10 turze 2 karty.
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="zdolnosci" class="zasada">
+                        <h2>Zdolności Kart</h2>
+                        <ul>
+                            <li>
+                                <strong>POŚPIECH</strong> - karta po przydzieleniu do lokacji jest od razu gotowa do
+                                walki i użycia.
+                            </li>
+                            <li>
+                                <strong>TELEPORTACJA</strong> - w fazie przydziału można przesunąć tę kartę na inne pole
+                                bitwy (raz na
+                                turę), jest od razu gotowa do walki i użycia, jeśli wcześniej była już gotowa.
+                            </li>
+                            <li>
+                                <strong>BARIERA</strong> - po otrzymaniu jakichkolwiek obrażeń są one negowane, a
+                                bariera znika
+                                (jednorazowe).
+                            </li>
+                            <li>
+                                <strong>POCISK X</strong> - podczas atakowania ta jednostka może zamiast wymieniać się
+                                obrażeniami zadać
+                                X obrażeń do dowolnego celu, chyba że broni go OBROŃCA.
+                            </li>
+                            <li>
+                                <strong>OBROŃCA</strong> - może być przydzielony tylko do obrony twoich portali, nie
+                                może atakować, ale
+                                musi być zaatakowany w pierwszej kolejności przez wroga.
+                            </li>
+                            <li>
+                                <strong>ADAPTACJA X </strong>- na początku fazy ataku możesz dać tej jednostce +X/+0 lub
+                                +0/+X do końca
+                                tury.
+                            </li>
+                            <li>
+                                <strong>LATANIE</strong> - karta może atakować dowolny cel nawet jeśli przeciwnik
+                                kontroluje OBROŃCĘ,
+                                jednostka z lataniem mozę otrzymac obrażenia tylko od POCISKU, innych jednostek z
+                                LATANIEM, kart działań i zaklęć oraz od zdolności pasywnych i aktywowanych.
+                            </li>
+                            <li>
+                                <strong>NAPRAWA</strong> - kiedy ta karta wchodzi na pole bitwy przywróć 1 pkt zdrowia
+                                sojuszniczej
+                                budowli na tej lokacji.
+                            </li>
+                            <li>
+                                <strong>REKONSTRUKCJA </strong>- kiedy ta jednostka umiera, wróć na tę samą lokację
+                                wybrańą przez ciebie
+                                jednostkę z twojego cmentarza z rekonstrukcją o mniejszym koszcie. Pzyzwana karta traci
+                                zdolność rekonstrukcji po czym zmniejsz jej statystyki o -1/-0.
+                            </li>
+                            <li>
+                                <strong>INŻYNIER </strong>- możesz stapować tę kartę aby otrzymać 1 pkt Energii. Możesz
+                                jej użyć tylko na
+                                budynki.
+                            </li>
+                            <li>
+                                <strong>LECZENIE</strong> - kiedy ta jednostka jest przydzielona do lokacji możesz
+                                przywrócić zdrowie
+                                dowolnej innej jednostki w tej lokacji do pierwotnego stanu.
+                            </li>
+                            <li>
+                                <strong>NIEWRAŻLIOWŚĆ</strong> - Jednostka nie może otrzymać żadnych obrażeń, i nie może
+                                być celem
+                                żadnych efektów.
+                            </li>
+                            <li>
+                                <strong>ZBIERACZ DUSZ</strong> - Kiedykolwiek jakakolwiek inna jednostka umrze, ta karta
+                                otrzymuje duszę.
+                            </li>
+                            <li>
+                                <strong>NASILENIE</strong> - Ta karta kosztuje tyle many ile wynosi potencjał magiczny
+                                jednostki
+                                zagrywającej tę kartę.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
             </section>
 
         </article>

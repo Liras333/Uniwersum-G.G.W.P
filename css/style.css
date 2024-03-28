@@ -54,12 +54,14 @@ header ul li {
     font-size: 1.3em;
     font-weight: bold;
     position: relative;
+    cursor: pointer;
 }
 
 header ul li a {
     text-decoration: none;
     position: relative;
     transition: all 0.2s;
+
 }
 
 header ul li a:hover {
@@ -374,6 +376,7 @@ section li {
 
 /*? FOOTER */
 
+
 footer {
     width: 100%;
     height: auto;
@@ -384,8 +387,6 @@ footer {
     gap: 20px;
     padding: 40px;
 }
-
-
 
 footer ul {
     margin: 0;
