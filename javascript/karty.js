@@ -17,3 +17,12 @@ function szukaj_karte() {
         }
     })
 }
+
+
+function nacja() {
+    const karty = document.querySelectorAll('.karty a');
+    const nacja = document.querySelector('.nacja')
+    const vidatras = document.querySelectorAll('.vidatras');
+
+
+}

@@ -94,40 +94,39 @@
                 <h1>Karty do gry</h1>
                 <form>
                     <input type="text" class="wyszukaj_karte" placeholder="Wyszukaj kartę..." onchange="szukaj_karte()">
-                    <select class="nacja">
+                    <select onchange="nacja()" class="nacja">
                         <option value="wybierz_nację" selected hidden disabled>Wybierz nacje</option>
-                        <option value="wszystkie">wszystkie</option>
-                        <option value="vidatras">Vidatras</option>
-                        <option value="sanovar">Sanovar</option>
+                        <option value="Wszystkie">wszystkie</option>
+                        <option value="Vidatras">Vidatras</option>
+                        <option value="Sanovar">Sanowar</option>
                         <option value="Ether">Ether</option>
-                        <option value="swiat_nieumarlych">Świat Nieumarłych</option>
-                        <option value="neutralne">neutralne</option>
+                        <option value="Swiat_nieumarlych">Świat Nieumarłych</option>
+                        <option value="Neutralne">Neutralne</option>
                     </select>
-                    <select class="rzadkosc">
+                    <select onchange="rzadkosc()" class="rzadkosc">
                         <option value="wybierz_rzadkosc" selected hidden disabled>Wybierz rzadkość</option>
                         <option value="dowodca">Dowódca</option>
                         <option value="legendarne">Legendarne</option>
                         <option value="rzadkie">Rzadkie</option>
                         <option value="zwykle">Zwykłe</option>
                     </select>
-                    <select class="typ">
+                    <select onchange="typ()" class="typ">
                         <option value="wybierz_typ" selected hidden disabled>Wybierz typ</option>
-                        <option value="jednostka">jednostka</option>
-                        <option value="dzialanie">działanie</option>
-                        <option value="zaklecie">zaklęcie</option>
-                        <option value="budynek">budynek</option>
+                        <option value="jednostka">Jednostka</option>
+                        <option value="dzialanie">Działanie</option>
+                        <option value="zaklecie">Zaklęcie</option>
+                        <option value="budynek">Budynek</option>
 
                     </select>
                 </form>
-
                 <div class="karty">
-                    <a href="">
+                    <a href="" class="vidatras">
                         <div class="karta">
                             <img class="" src="images/GatewayBloodshed/Adept_Medycyny.jpg" alt="adept medycyny">
                             <span>Adept Medycyny</span>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="" class="vidatras">
                         <div class="karta">
                             <img src="images/GatewayBloodshed/Afargam, Władca Etheru.jpg" alt="afargam">
                             <span>Afargam, Władca Etheru</span>
@@ -188,7 +187,7 @@
                             <span>centrum odkrywcze</span>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="" class="vidatras">
                         <div class="karta">
                             <img src="images/GatewayBloodshed/Centrum operacyjne.jpg" alt="centrum operacyjne">
                             <span>centrum operacyjne</span>
@@ -206,7 +205,7 @@
                             <span>dalekowidzenie</span>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="" class="vidatras">
                         <div class="karta">
                             <img src="images/GatewayBloodshed/Deklaracja Wojny.jpg" alt="Deklaracja wojny">
                             <span>deklaracja wojny</span>
@@ -248,7 +247,7 @@
                             <span>działko strażnicze</span>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="" class="vidatras">
                         <div class="karta">
                             <img src="images/GatewayBloodshed/Edward, Bohater Vidatrasu.jpg" alt="edward">
                             <span>edward, bohater vidatrasu</span>
@@ -297,7 +296,7 @@
                             <span>farma wiatrowa</span>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="" class="vidatras">
                         <div class="karta">
                             <img src="images/GatewayBloodshed/Generał Goldfrey.jpg" alt="generał Goldfrey">
                             <span>generał goldfrey</span>
@@ -327,7 +326,7 @@
                             <span>kornelius Ion, prekursor postępu</span>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="" class="vidatras">
                         <div class="karta">
                             <img src="images/GatewayBloodshed/Koszary.jpg" alt="koszary">
                             <span>koszary</span>
@@ -357,13 +356,7 @@
                             <span>lekhratal, krwiopijca</span>
                         </div>
                     </a>
-                    <a href="">
-                        <div class="karta">
-                            <img src="images/GatewayBloodshed/Leon, Geniusz.jpg" alt="leon">
-                            <span>leon, geniusz</span>
-                        </div>
-                    </a>
-                    <a href="">
+                    <a href="" class="vidatras">
                         <div class="karta">
                             <img src="images/GatewayBloodshed/Leon, Geniusz.jpg" alt="leon">
                             <span>leon, geniusz</span>
@@ -381,19 +374,19 @@
                             <span>logan, szkarłatny mag</span>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="" class="vidatras">
                         <div class="karta">
                             <img src="images/GatewayBloodshed/Łapówka.jpg" alt="łapówka">
                             <span>łapówka</span>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="" class="vidatras">
                         <div class="karta">
-                            <img src="images/GatewayBloodshed/mag1.jpg" alt="mag1">
-                            <span>mag1</span>
+                            <img src="images/GatewayBloodshed/zaklinacz.jpg" alt="zaklinacz">
+                            <span>zaklinacz z kelfordu</span>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="" class="vidatras">
                         <div class="karta">
                             <img src="images/GatewayBloodshed/mobilizacja do armii.jpg" alt="mobilizacja">
                             <span>mobilizacja do armii</span>
@@ -441,13 +434,13 @@
                             <span>matias, agent sanowaru</span>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="" lass="vidatras">
                         <div class="karta">
-                            <img src="images/GatewayBloodshed/Medyk Polowy.jpg" alt="medyj polowy">
+                            <img src="images/GatewayBloodshed/Medyk Polowy.jpg" alt="medyk polowy">
                             <span>medyk polowy</span>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="" class="vidatras">
                         <div class="karta">
                             <img src="images/GatewayBloodshed/Miguel, Regent Vidatrasu.jpg" alt="Miguel">
                             <span>miguel, regent vidatrasu</span>
@@ -478,13 +471,13 @@
                             <span>mury obronne</span>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="" class="vidatras">
                         <div class="karta">
                             <img src="images/GatewayBloodshed/Nalot .jpg" alt="nalot">
                             <span>nalot dywanowy </span>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="" class="vidatras">
                         <div class="karta">
                             <img src="images/GatewayBloodshed/Narada Wojenna.jpg" alt="narada wojenna">
                             <span>narada wojenna</span>
@@ -556,7 +549,7 @@
                             <span>pocisk cienia</span>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="" class="vidatras">
                         <div class="karta">
                             <img src="images/GatewayBloodshed/Podstępny układ.jpg" alt="podstępny układ">
                             <span>podstęny układ</span>
@@ -586,7 +579,7 @@
                             <span>promień śmierci</span>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="" class="vidatras">
                         <div class="karta">
                             <img src="images/GatewayBloodshed/Przebłysk Geniuszu.jpg" alt="Przebłysk geniuszu">
                             <span>przebłysk geniuszu</span>
@@ -610,7 +603,7 @@
                             <span>robotnik</span>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="" class="vidatras">
                         <div class="karta">
                             <img src="images/GatewayBloodshed/Samolot Desantowy.jpg" alt="samolot desantowy">
                             <span>samolot desantowy</span>
@@ -628,13 +621,13 @@
                             <span>Strażnik Bramy</span>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="" class="vidatras">
                         <div class="karta">
                             <img src="images/GatewayBloodshed/Syriusz Glann.jpg" alt="Syriusz Glann">
                             <span>Syriusz Glenn</span>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="" class="vidatras">
                         <div class="karta">
                             <img src="images/GatewayBloodshed/Szeregowy Żołnierz.jpg" alt="Szeregowy Żołnierz">
                             <span>Szeregowy żołnierz</span>
@@ -725,7 +718,7 @@
                             <span>wygnany inkwizytor</span>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="" class="vidatras">
                         <div class="karta">
                             <img src="images/GatewayBloodshed/Wywiad.jpg" alt="wywiad">
                             <span>wywiad</span>
@@ -780,7 +773,7 @@
                             <span>Zrujnowanie</span>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="" class="vidatras">
                         <div class="karta">
                             <img src="images/GatewayBloodshed/Złudzenie.jpg" alt="Złudzenie">
                             <span>Złudzenie</span>
@@ -817,13 +810,13 @@
                             <span>brom, spaczony golem</span>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="" class="vidatras">
                         <div class="karta">
                             <img src="images/GatewayBloodshed/tokeny/Konstrukt 1.jpg" alt="konstrukt1">
                             <span>konstrukt 1</span>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="" class="vidatras">
                         <div class="karta">
                             <img src="images/GatewayBloodshed/tokeny/Konstrukt 2.jpg" alt="konstrukt2">
                             <span>konstrukt 2</span>
@@ -865,7 +858,7 @@
                             <span>nieumarły czempion</span>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="" class="vidatras">
                         <div class="karta">
                             <img src="images/GatewayBloodshed/tokeny/Syriusz, Odpalony.jpg" alt="Syriusz odpalony">
                             <span>syriusz, odpalony</span>
