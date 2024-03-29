@@ -10,10 +10,6 @@ main {
     height: 30vh
 }
 
-section {
-    background-color: rgb(7, 7, 7);
-}
-
 h1 {
     padding: 20px;
     text-align: center
@@ -36,6 +32,6 @@ input {
     gap: 25px;
 }
 
-.karta img {
-    width: 300px;
+img {
+    width: 260px;
 }
