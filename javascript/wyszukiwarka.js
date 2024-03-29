@@ -1,3 +1,5 @@
+
+//wyszukwoarka postaci
 const input = document.querySelector('input');
 input.addEventListener('input', search)
 
@@ -16,7 +18,7 @@ function search() {
         } else {
             postac.style.display = "none";
         }
-        
+
         tagi.forEach(tag => {
             const tagE = tag.textContent.toLowerCase();
             if (tagE.includes(searchText)) {
@@ -27,6 +29,7 @@ function search() {
 
     })
 }
+
 
 
 //sortowanie
