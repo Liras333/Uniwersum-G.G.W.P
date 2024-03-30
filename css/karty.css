@@ -55,7 +55,26 @@ select {
     border: 3px solid rgb(33, 22, 22);
     height: 40px;
     font-size: 1.15rem;
+    margin: 10px 0
 }
+
+.nacja option:nth-child(3) {
+    background-color: rgba(89, 225, 249, 0.45);
+}
+
+.nacja option:nth-child(4) {
+    background-color: rgba(206, 21, 21, 0.5);
+}
+
+.nacja option:nth-child(5) {
+    background-color: rgba(24, 193, 24, 0.502);
+}
+
+.nacja option:nth-child(6) {
+    background-color: rgba(19, 19, 19, 0.53);
+}
+
+
 
 form {
     text-align: center

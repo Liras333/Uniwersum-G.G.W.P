@@ -22,41 +22,62 @@ function szukaj_karte() {
 function nacja() {
     const karty = document.querySelectorAll('.karty a');
     const nacja = document.querySelector('.nacja')
-    const vidatras = document.querySelectorAll('.vidatras');
 
     karty.forEach(karta => {
-        if(nacja.value == "Wszystkie"){
+        if (nacja.value == "Wszystkie") {
             karta.style.display = "block"
         }
-        else if(nacja.value == "Vidatras"){
-            if(karta.classList.contains('vidatras')){
+        else if (nacja.value == "Vidatras") {
+            if (karta.classList.contains('vidatras')) {
                 karta.style.display = "block";
-            }else{
+            } else {
                 karta.style.display = 'none'
             }
         }
-        else if(nacja.value == "Sanowar"){
-            if(karta.classList.contains("sanowar")){
+        else if (nacja.value == "Sanowar") {
+            if (karta.classList.contains("sanowar")) {
                 karta.style.display = "block";
-            }else{
+            } else {
                 karta.style.display = 'none'
             }
         }
-        else if(nacja.value == "Ether"){
-            if(karta.classList.contains('ether')){
+        else if (nacja.value == "Ether") {
+            if (karta.classList.contains('ether')) {
                 karta.style.display = "block";
-            }else{
+            } else {
                 karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "swiat_nieumarlych"){
+        else if (nacja.value == "swiat_nieumarlych") {
             console.log(nacja.value)
-            if(karta.classList.contains("swiat_nieumarlych")){
+            if (karta.classList.contains("swiat_nieumarlych")) {
                 karta.style.display = "block";
-            }else{
+            } else {
+                karta.style.display = 'none'
+            }
+        }
+        else if (nacja.value == "Neutralne") {
+            if (karta.classList.contains('neutralne')) {
+                karta.style.display = "block";
+            } else {
                 karta.style.display = 'none'
             }
         }
     })
 
+}
+
+function rzadkosc() {
+    const karty = document.querySelectorAll('.karty a');
+    const rzadkosc = document.querySelector('.rzadkosc')
+
+    karty.forEach(karta => {
+        if (rzadkosc.value == "dowodca") {
+            if (karta.classList.contains('dowodca')) {
+                karta.style.display = "block";
+            } else {
+                karta.style.display = 'none'
+            }
+        }
+    })
 }
