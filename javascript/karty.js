@@ -22,6 +22,7 @@ function filter() {
     const karty = document.querySelectorAll('.karty a');
     const nacja = document.querySelector('.nacja')
     const rzadkosc = document.querySelector('.rzadkosc')
+    const typ = document.querySelector('.typ')
 
     karty.forEach(karta => {
 
@@ -217,6 +218,8 @@ function filter() {
             }
         }
 
+
+
         else if (rzadkosc.value == "dowodca") {
             if (karta.classList.contains("dowodca")) {
                 karta.style.display = "block";
@@ -245,6 +248,15 @@ function filter() {
                 karta.style.display = 'none';
             }
         }
+
+        else if (typ.value == "jednostka") {
+            if (karta.classList.contains('jednostka')) {
+                karta.style.display = "block";
+            } else {
+                karta.style.display = 'none';
+            }
+        }
+
         else if (nacja.value == "Wszystkie" || "wybierz nacje" || "Wybierz rzadkosc" || "wybierz typ") {
             karta.style.display = "block"
         }

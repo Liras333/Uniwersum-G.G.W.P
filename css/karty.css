@@ -33,8 +33,6 @@ input {
     padding-bottom: 20px
 }
 
-
-
 .karty a {
     box-shadow: 0 0 10px 0px rgba(255, 255, 255, 0.5);
     border-radius: 8px;
@@ -74,7 +72,26 @@ select {
     background-color: rgba(19, 19, 19, 0.53);
 }
 
+.nacja option:nth-child(7) {
+    background-color: rgba(62, 40, 21, 0.53);
+}
 
+
+.rzadkosc option:nth-child(3) {
+    background-color: rgba(206, 21, 21, 0.5);
+}
+
+.rzadkosc option:nth-child(4) {
+    background-color: rgba(202, 209, 14, 0.507);
+}
+
+.rzadkosc option:nth-child(5) {
+    background-color: rgba(50, 12, 84, 0.507);
+}
+
+.rzadkosc option:nth-child(6) {
+    background-color: rgba(0, 0, 0, 0.507);
+}
 
 form {
     text-align: center
