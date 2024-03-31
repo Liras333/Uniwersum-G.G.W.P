@@ -483,7 +483,7 @@ function filter() {
             }
         }
         else if(nacja.value == "Ether" && rzadkosc.value == "zwykle" && typ.value == "zaklecie"){
-            if(karta.classList.contains("ether") && karta.classList.contains("zwykle") && karta.classList.contains("zaklecie")){
+            if(karta.classList.contains("ether") && karta.classList.contains("zwykle") && karta.classList.contains("budynek")){
                 karta.style.display = "block";
             }else {
                 karta.style.display = 'none';   
@@ -496,7 +496,42 @@ function filter() {
                 karta.style.display = 'none';   
             }
         }
-        
+        else if(nacja.value == "Ether" && rzadkosc.value == "dowodca" && typ.value == "budynek"){
+            if(karta.classList.contains("ethet") && karta.classList.contains("dowodca") && karta.classList.contains("budynek")){
+                karta.style.display = "block";
+            }else {
+                karta.style.display = 'none';   
+            }
+        }
+        else if(nacja.value == "Ether" && rzadkosc.value == "legendarne" && typ.value == "budynek"){
+            if(karta.classList.contains("ether") && karta.classList.contains("legendarne") && karta.classList.contains("budynek")){
+                karta.style.display = "block";
+            }else {
+                karta.style.display = 'none';   
+            }
+        }
+        else if(nacja.value == "Ether" && rzadkosc.value == "rzadkie" && typ.value == "budynek"){
+            if(karta.classList.contains("ether") && karta.classList.contains("rzadkie") && karta.classList.contains("budynek")){
+                karta.style.display = "block";
+            }else {
+                karta.style.display = 'none';   
+            }
+        }
+        else if(nacja.value == "Ether" && rzadkosc.value == "zwykle" && typ.value == "budynek"){
+            if(karta.classList.contains("ether") && karta.classList.contains("zwykle") && karta.classList.contains("budynek")){
+                karta.style.display = "block";
+            }else {
+                karta.style.display = 'none';   
+            }
+        }
+        else if(nacja.value == "Ether" && typ.value == "budynek"){
+            if(karta.classList.contains("ether") && karta.classList.contains("budynek")){
+                karta.style.display = "block";
+            }else {
+                karta.style.display = 'none';   
+            }
+        }
+
         else if (nacja.value == "Ether" && rzadkosc.value == "dowodca") {
             if (karta.classList.contains('ether') && karta.classList.contains('dowodca')) {
                 karta.style.display = "block";
