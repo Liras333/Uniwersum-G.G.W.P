@@ -910,9 +910,6 @@ function filter() {
                 karta.style.display = 'none'
             }
         }
-
-
-
         else if (rzadkosc.value == "dowodca") {
             if (karta.classList.contains("dowodca")) {
                 karta.style.display = "block";

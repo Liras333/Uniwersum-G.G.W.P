@@ -93,33 +93,40 @@
             <section>
                 <h1>Karty do gry</h1>
                 <form>
+                    <div>
+                        <h3>Wyszukaj poprzez nazwę</h3>
                     <input type="text" class="wyszukaj_karte" placeholder="Wyszukaj kartę..." onchange="szukaj_karte()">
-                    <select onchange="filter()" class="nacja">
-                        <option value="wybierz_nację" selected hidden disabled>Wybierz nacje</option>
-                        <option value="Wszystkie">Wszystkie</option>
-                        <option value="Vidatras">Vidatras</option>
-                        <option value="Sanowar">Sanowar</option>
-                        <option value="Ether">Ether</option>
-                        <option value="Swiat_nieumarlych">Świat Nieumarłych</option>
-                        <option value="Neutralne">Neutralne</option>
-                    </select>
-                    <select onchange="filter()" class="rzadkosc">
-                        <option value="wybierz_rzadkosc" selected hidden disabled>Wybierz rzadkość</option>
-                        <option value="Wszystkie">Wszystkie</option>
-                        <option value="dowodca">Dowódca</option>
-                        <option value="legendarne">Legendarne</option>
-                        <option value="rzadkie">Rzadkie</option>
-                        <option value="zwykle">Zwykłe</option>
-                    </select>
-                    <select onchange="filter()" class="typ">
-                        <option value="wybierz_typ" selected hidden disabled>Wybierz typ</option>
-                        <option value="Wszystkie">Wszystkie</option>
-                        <option value="jednostka">Jednostka</option>
-                        <option value="dzialanie">Działanie</option>
-                        <option value="zaklecie">Zaklęcie</option>
-                        <option value="budynek">Budynek</option>
-
-                    </select>
+                    </div>
+                    <div>
+                        <h3>Wyszukaj poprzez fitry</h3>
+                        <select onchange="filter()" class="nacja">
+                            <option value="wybierz_nację" selected hidden disabled>Wybierz nacje</option>
+                            <option value="Wszystkie">Wszystkie</option>
+                            <option value="Vidatras">Vidatras</option>
+                            <option value="Sanowar">Sanowar</option>
+                            <option value="Ether">Ether</option>
+                            <option value="Swiat_nieumarlych">Świat Nieumarłych</option>
+                            <option value="Neutralne">Neutralne</option>
+                        </select>
+                        <select onchange="filter()" class="rzadkosc">
+                            <option value="wybierz_rzadkosc" selected hidden disabled>Wybierz rzadkość</option>
+                            <option value="Wszystkie">Wszystkie</option>
+                            <option value="dowodca">Dowódca</option>
+                            <option value="legendarne">Legendarne</option>
+                            <option value="rzadkie">Rzadkie</option>
+                            <option value="zwykle">Zwykłe</option>
+                        </select>
+                        <select onchange="filter()" class="typ">
+                            <option value="wybierz_typ" selected hidden disabled>Wybierz typ</option>
+                            <option value="Wszystkie">Wszystkie</option>
+                            <option value="jednostka">Jednostka</option>
+                            <option value="dzialanie">Działanie</option>
+                            <option value="zaklecie">Zaklęcie</option>
+                            <option value="budynek">Budynek</option>
+    
+                        </select>
+                    </div>
+                   
                 </form>
                 <div class="karty">
                     <a href="" class="vidatras zwykle jednostka">
