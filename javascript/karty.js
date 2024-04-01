@@ -346,7 +346,7 @@ function filter() {
             }
         }
         else if(nacja.value == "Sanowar" && typ.value == "budynek"){
-            if(karta.classList.contains("sanowars") && karta.classList.contains("budynek")){
+            if(karta.classList.contains("sanowar") && karta.classList.contains("budynek")){
                 karta.style.display = "block";
             }else {
                 karta.style.display = 'none';   
