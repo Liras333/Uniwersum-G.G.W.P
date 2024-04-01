@@ -10,7 +10,7 @@ main {
     height: 30vh
 }
 
-section{
+section {
     min-height: 60vh;
 }
 
@@ -19,15 +19,15 @@ h1 {
     text-align: center
 }
 
-form{
+form {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap:wrap;
-    padding:20px
+    flex-wrap: wrap;
+    padding: 20px
 }
 
- h3{
+form h3 {
     color: rgb(223, 209, 190);
     margin-bottom: 5px;
     text-shadow: -2px 5px 30px white
@@ -128,17 +128,18 @@ form {
     display: none
 }
 
-@media screen and (max-width:715px){
-    select{
-        margin:5px 0
+@media screen and (max-width:715px) {
+    select {
+        margin: 5px 0
     }
-    input{
+
+    input {
         margin: 20px 0
     }
 }
 
-@media screen and (max-width:430px){
-    input{
-        width:300px
+@media screen and (max-width:430px) {
+    input {
+        width: 300px
     }
 }
