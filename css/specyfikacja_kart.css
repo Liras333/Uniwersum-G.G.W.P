@@ -1,6 +1,14 @@
+main {
+    height: 30vh
+}
+
 img {
     width: 300px;
     margin: 20px 0
+}
+
+header {
+    height: 80px;
 }
 
 .back-to-top {
@@ -28,16 +36,37 @@ section {
     padding: 15px;
     margin: 20px 0;
     border-radius: 15px;
-    border: 2px solid rgb(26, 26, 26);
+    border: 2px solid rgb(31, 31, 31);
+    background: linear-gradient(-25deg, rgb(24, 24, 24), rgb(0, 0, 0));
 }
 
 .specyfikacja div {
-    border: 1px solid rgb(132, 132, 132);
-    width: 400px
+    border: 1px solid rgb(132, 132, 132, 0.3);
+    width: 400px;
+    background-color: rgba(3, 3, 3, 0.8);
+    padding: 5px
 }
 
+.specyfikacja div:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.specyfikacja div:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
 div p {
-    padding: 7px;
+    padding: 5px 7px;
     font-size: 18px;
     line-height: 125%;
+}
+
+div .opis {
+    text-indent: 10px;
+
 }
