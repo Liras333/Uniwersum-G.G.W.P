@@ -27,144 +27,144 @@ function filter() {
     karty.forEach(karta => {
 
         //?VIDATRAS
-        if(nacja.value == "Vidatras" && rzadkosc.value == "dowodca" && typ.value == "jednostka"){
-            if(karta.classList.contains("vidatras") && karta.classList.contains("dowodca") && karta.classList.contains("jednostka")){
+        if (nacja.value == "Vidatras" && rzadkosc.value == "dowodca" && typ.value == "jednostka") {
+            if (karta.classList.contains("vidatras") && karta.classList.contains("dowodca") && karta.classList.contains("jednostka")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Vidatras" && rzadkosc.value == "legendarne" && typ.value == "jednostka"){
-            if(karta.classList.contains("vidatras") && karta.classList.contains("legendarne") && karta.classList.contains("jednostka")){
+        else if (nacja.value == "Vidatras" && rzadkosc.value == "legendarne" && typ.value == "jednostka") {
+            if (karta.classList.contains("vidatras") && karta.classList.contains("legendarne") && karta.classList.contains("jednostka")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Vidatras" && rzadkosc.value == "rzadkie" && typ.value == "jednostka"){
-            if(karta.classList.contains("vidatras") && karta.classList.contains("rzadkie") && karta.classList.contains("jednostka")){
+        else if (nacja.value == "Vidatras" && rzadkosc.value == "rzadkie" && typ.value == "jednostka") {
+            if (karta.classList.contains("vidatras") && karta.classList.contains("rzadkie") && karta.classList.contains("jednostka")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Vidatras" && rzadkosc.value == "zwykle" && typ.value == "jednostka"){
-            if(karta.classList.contains("vidatras") && karta.classList.contains("zwykle") && karta.classList.contains("jednostka")){
+        else if (nacja.value == "Vidatras" && rzadkosc.value == "zwykle" && typ.value == "jednostka") {
+            if (karta.classList.contains("vidatras") && karta.classList.contains("zwykle") && karta.classList.contains("jednostka")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Vidatras" && typ.value == "jednostka"){
-            if(karta.classList.contains("vidatras") && karta.classList.contains("jednostka")){
+        else if (nacja.value == "Vidatras" && typ.value == "jednostka") {
+            if (karta.classList.contains("vidatras") && karta.classList.contains("jednostka")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Vidatras" && rzadkosc.value == "dowodca" && typ.value == "dzialanie"){
-            if(karta.classList.contains("vidatras") && karta.classList.contains("dowodca") && karta.classList.contains("dzialanie")){
+        else if (nacja.value == "Vidatras" && rzadkosc.value == "dowodca" && typ.value == "dzialanie") {
+            if (karta.classList.contains("vidatras") && karta.classList.contains("dowodca") && karta.classList.contains("dzialanie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Vidatras" && rzadkosc.value == "legendarne" && typ.value == "dzialanie"){
-            if(karta.classList.contains("vidatras") && karta.classList.contains("legendarne") && karta.classList.contains("dzialanie")){
+        else if (nacja.value == "Vidatras" && rzadkosc.value == "legendarne" && typ.value == "dzialanie") {
+            if (karta.classList.contains("vidatras") && karta.classList.contains("legendarne") && karta.classList.contains("dzialanie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Vidatras" && rzadkosc.value == "rzadkie" && typ.value == "dzialanie"){
-            if(karta.classList.contains("vidatras") && karta.classList.contains("rzadkie") && karta.classList.contains("dzialanie")){
+        else if (nacja.value == "Vidatras" && rzadkosc.value == "rzadkie" && typ.value == "dzialanie") {
+            if (karta.classList.contains("vidatras") && karta.classList.contains("rzadkie") && karta.classList.contains("dzialanie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Vidatras" && rzadkosc.value == "zwykle" && typ.value == "dzialanie"){
-            if(karta.classList.contains("vidatras") && karta.classList.contains("zwykle") && karta.classList.contains("dzialanie")){
+        else if (nacja.value == "Vidatras" && rzadkosc.value == "zwykle" && typ.value == "dzialanie") {
+            if (karta.classList.contains("vidatras") && karta.classList.contains("zwykle") && karta.classList.contains("dzialanie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Vidatras" && typ.value == "dzialanie"){
-            if(karta.classList.contains("vidatras") && karta.classList.contains("dzialanie")){
+        else if (nacja.value == "Vidatras" && typ.value == "dzialanie") {
+            if (karta.classList.contains("vidatras") && karta.classList.contains("dzialanie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Vidatras" && rzadkosc.value == "dowodca" && typ.value == "zaklecie"){
-            if(karta.classList.contains("vidatras") && karta.classList.contains("dowodca") && karta.classList.contains("zaklecie")){
+        else if (nacja.value == "Vidatras" && rzadkosc.value == "dowodca" && typ.value == "zaklecie") {
+            if (karta.classList.contains("vidatras") && karta.classList.contains("dowodca") && karta.classList.contains("zaklecie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Vidatras" && rzadkosc.value == "legendarne" && typ.value == "zaklecie"){
-            if(karta.classList.contains("vidatras") && karta.classList.contains("legendarne") && karta.classList.contains("zaklecie")){
+        else if (nacja.value == "Vidatras" && rzadkosc.value == "legendarne" && typ.value == "zaklecie") {
+            if (karta.classList.contains("vidatras") && karta.classList.contains("legendarne") && karta.classList.contains("zaklecie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Vidatras" && rzadkosc.value == "rzadkie" && typ.value == "zaklecie"){
-            if(karta.classList.contains("vidatras") && karta.classList.contains("rzadkie") && karta.classList.contains("zaklecie")){
+        else if (nacja.value == "Vidatras" && rzadkosc.value == "rzadkie" && typ.value == "zaklecie") {
+            if (karta.classList.contains("vidatras") && karta.classList.contains("rzadkie") && karta.classList.contains("zaklecie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Vidatras" && rzadkosc.value == "zwykle" && typ.value == "zaklecie"){
-            if(karta.classList.contains("vidatras") && karta.classList.contains("zwykle") && karta.classList.contains("zaklecie")){
+        else if (nacja.value == "Vidatras" && rzadkosc.value == "zwykle" && typ.value == "zaklecie") {
+            if (karta.classList.contains("vidatras") && karta.classList.contains("zwykle") && karta.classList.contains("zaklecie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Vidatras" && typ.value == "zaklecie"){
-            if(karta.classList.contains("vidatras") && karta.classList.contains("zaklecie")){
+        else if (nacja.value == "Vidatras" && typ.value == "zaklecie") {
+            if (karta.classList.contains("vidatras") && karta.classList.contains("zaklecie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Vidatras" && rzadkosc.value == "dowodca" && typ.value == "budynek"){
-            if(karta.classList.contains("vidatras") && karta.classList.contains("dowodca") && karta.classList.contains("budynek")){
+        else if (nacja.value == "Vidatras" && rzadkosc.value == "dowodca" && typ.value == "budynek") {
+            if (karta.classList.contains("vidatras") && karta.classList.contains("dowodca") && karta.classList.contains("budynek")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Vidatras" && rzadkosc.value == "legendarne" && typ.value == "budynek"){
-            if(karta.classList.contains("vidatras") && karta.classList.contains("legendarne") && karta.classList.contains("budynek")){
+        else if (nacja.value == "Vidatras" && rzadkosc.value == "legendarne" && typ.value == "budynek") {
+            if (karta.classList.contains("vidatras") && karta.classList.contains("legendarne") && karta.classList.contains("budynek")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Vidatras" && rzadkosc.value == "rzadkie" && typ.value == "budynek"){
-            if(karta.classList.contains("vidatras") && karta.classList.contains("rzadkie") && karta.classList.contains("budynek")){
+        else if (nacja.value == "Vidatras" && rzadkosc.value == "rzadkie" && typ.value == "budynek") {
+            if (karta.classList.contains("vidatras") && karta.classList.contains("rzadkie") && karta.classList.contains("budynek")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Vidatras" && rzadkosc.value == "zwykle" && typ.value == "budynek"){
-            if(karta.classList.contains("vidatras") && karta.classList.contains("zwykle") && karta.classList.contains("budynek")){
+        else if (nacja.value == "Vidatras" && rzadkosc.value == "zwykle" && typ.value == "budynek") {
+            if (karta.classList.contains("vidatras") && karta.classList.contains("zwykle") && karta.classList.contains("budynek")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Vidatras" && typ.value == "budynek"){
-            if(karta.classList.contains("vidatras") && karta.classList.contains("budynek")){
+        else if (nacja.value == "Vidatras" && typ.value == "budynek") {
+            if (karta.classList.contains("vidatras") && karta.classList.contains("budynek")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
         else if (nacja.value == "Wszystkie" && rzadkosc.value == "dowodca") {
@@ -212,144 +212,146 @@ function filter() {
 
         //! SANOWAR
 
-        else if(nacja.value == "Sanowar" && rzadkosc.value == "dowodca" && typ.value == "jednostka"){
-            if(karta.classList.contains("sanowar") && karta.classList.contains("dowodca") && karta.classList.contains("jednostka")){
+        else if (nacja.value == "Sanowar" && rzadkosc.value == "dowodca" && typ.value == "jednostka") {
+            if (karta.classList.contains("sanowar") && karta.classList.contains("dowodca") && karta.classList.contains("jednostka")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Sanowar" && rzadkosc.value == "legendarne" && typ.value == "jednostka"){
-            if(karta.classList.contains("sanowar") && karta.classList.contains("legendarne") && karta.classList.contains("jednostka")){
+        else if (nacja.value == "Sanowar" && rzadkosc.value == "legendarne" && typ.value == "jednostka") {
+            if (karta.classList.contains("sanowar") && karta.classList.contains("legendarne") && karta.classList.contains("jednostka")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Sanowar" && rzadkosc.value == "rzadkie" && typ.value == "jednostka"){
-            if(karta.classList.contains("sanowar") && karta.classList.contains("rzadkie") && karta.classList.contains("jednostka")){
+        else if (nacja.value == "Sanowar" && rzadkosc.value == "rzadkie" && typ.value == "jednostka") {
+            if (karta.classList.contains("sanowar") && karta.classList.contains("rzadkie") && karta.classList.contains("jednostka")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Sanowar" && rzadkosc.value == "zwykle" && typ.value == "jednostka"){
-            if(karta.classList.contains("sanowar") && karta.classList.contains("zwykle") && karta.classList.contains("jednostka")){
+        else if (nacja.value == "Sanowar" && rzadkosc.value == "zwykle" && typ.value == "jednostka") {
+            if (karta.classList.contains("sanowar") && karta.classList.contains("zwykle") && karta.classList.contains("jednostka")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Sanowar" && typ.value == "jednostka"){
-            if(karta.classList.contains("sanowars") && karta.classList.contains("jednostka")){
+        else if (nacja.value == "Sanowar" && typ.value == "jednostka") {
+            if (karta.classList.contains("sanowar") && karta.classList.contains("jednostka")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Sanowar" && rzadkosc.value == "dowodca" && typ.value == "dzialanie"){
-            if(karta.classList.contains("sanowar") && karta.classList.contains("dowodca") && karta.classList.contains("dzialanie")){
+        else if (nacja.value == "Sanowar" && rzadkosc.value == "dowodca" && typ.value == "dzialanie") {
+            if (karta.classList.contains("sanowar") && karta.classList.contains("dowodca") && karta.classList.contains("dzialanie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Sanowar" && rzadkosc.value == "legendarne" && typ.value == "dzialanie"){
-            if(karta.classList.contains("sanowar") && karta.classList.contains("legendarne") && karta.classList.contains("dzialanie")){
+        else if (nacja.value == "Sanowar" && rzadkosc.value == "legendarne" && typ.value == "dzialanie") {
+            if (karta.classList.contains("sanowar") && karta.classList.contains("legendarne") && karta.classList.contains("dzialanie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Sanowar" && rzadkosc.value == "rzadkie" && typ.value == "dzialanie"){
-            if(karta.classList.contains("sanowar") && karta.classList.contains("rzadkie") && karta.classList.contains("dzialanie")){
+        else if (nacja.value == "Sanowar" && rzadkosc.value == "rzadkie" && typ.value == "dzialanie") {
+            if (karta.classList.contains("sanowar") && karta.classList.contains("rzadkie") && karta.classList.contains("dzialanie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Sanowar" && rzadkosc.value == "zwykle" && typ.value == "dzialanie"){
-            if(karta.classList.contains("sanowar") && karta.classList.contains("zwykle") && karta.classList.contains("dzialanie")){
+        else if (nacja.value == "Sanowar" && rzadkosc.value == "zwykle" && typ.value == "dzialanie") {
+            if (karta.classList.contains("sanowar") && karta.classList.contains("zwykle") && karta.classList.contains("dzialanie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Sanowar" && typ.value == "dzialanie"){
-            if(karta.classList.contains("sanowars") && karta.classList.contains("dzialanie")){
+
+        else if (nacja.value == "Sanowar" && typ.value == "dzialanie") {
+            if (karta.classList.contains("sanowar") && karta.classList.contains("dzialanie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Sanowar" && rzadkosc.value == "dowodca" && typ.value == "zaklecie"){
-            if(karta.classList.contains("sanowar") && karta.classList.contains("dowodca") && karta.classList.contains("zaklecie")){
+
+        else if (nacja.value == "Sanowar" && rzadkosc.value == "dowodca" && typ.value == "zaklecie") {
+            if (karta.classList.contains("sanowar") && karta.classList.contains("dowodca") && karta.classList.contains("zaklecie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Sanowar" && rzadkosc.value == "legendarne" && typ.value == "zaklecie"){
-            if(karta.classList.contains("sanowar") && karta.classList.contains("legendarne") && karta.classList.contains("zaklecie")){
+        else if (nacja.value == "Sanowar" && rzadkosc.value == "legendarne" && typ.value == "zaklecie") {
+            if (karta.classList.contains("sanowar") && karta.classList.contains("legendarne") && karta.classList.contains("zaklecie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Sanowar" && rzadkosc.value == "rzadkie" && typ.value == "zaklecie"){
-            if(karta.classList.contains("sanowar") && karta.classList.contains("rzadkie") && karta.classList.contains("zaklecie")){
+        else if (nacja.value == "Sanowar" && rzadkosc.value == "rzadkie" && typ.value == "zaklecie") {
+            if (karta.classList.contains("sanowar") && karta.classList.contains("rzadkie") && karta.classList.contains("zaklecie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Sanowar" && rzadkosc.value == "zwykle" && typ.value == "zaklecie"){
-            if(karta.classList.contains("sanowar") && karta.classList.contains("zwykle") && karta.classList.contains("zaklecie")){
+        else if (nacja.value == "Sanowar" && rzadkosc.value == "zwykle" && typ.value == "zaklecie") {
+            if (karta.classList.contains("sanowar") && karta.classList.contains("zwykle") && karta.classList.contains("zaklecie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Sanowar" && typ.value == "zaklecie"){
-            if(karta.classList.contains("sanowars") && karta.classList.contains("zaklecie")){
+        else if (nacja.value == "Sanowar" && typ.value == "zaklecie") {
+            if (karta.classList.contains("sanowars") && karta.classList.contains("zaklecie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Sanowar" && rzadkosc.value == "dowodca" && typ.value == "budynek"){
-            if(karta.classList.contains("sanowar") && karta.classList.contains("dowodca") && karta.classList.contains("budynek")){
+        else if (nacja.value == "Sanowar" && rzadkosc.value == "dowodca" && typ.value == "budynek") {
+            if (karta.classList.contains("sanowar") && karta.classList.contains("dowodca") && karta.classList.contains("budynek")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Sanowar" && rzadkosc.value == "legendarne" && typ.value == "budynek"){
-            if(karta.classList.contains("sanowar") && karta.classList.contains("legendarne") && karta.classList.contains("budynek")){
+        else if (nacja.value == "Sanowar" && rzadkosc.value == "legendarne" && typ.value == "budynek") {
+            if (karta.classList.contains("sanowar") && karta.classList.contains("legendarne") && karta.classList.contains("budynek")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Sanowar" && rzadkosc.value == "rzadkie" && typ.value == "budynek"){
-            if(karta.classList.contains("sanowar") && karta.classList.contains("rzadkie") && karta.classList.contains("budynek")){
+        else if (nacja.value == "Sanowar" && rzadkosc.value == "rzadkie" && typ.value == "budynek") {
+            if (karta.classList.contains("sanowar") && karta.classList.contains("rzadkie") && karta.classList.contains("budynek")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Sanowar" && rzadkosc.value == "zwykle" && typ.value == "budynek"){
-            if(karta.classList.contains("sanowar") && karta.classList.contains("zwykle") && karta.classList.contains("budynek")){
+        else if (nacja.value == "Sanowar" && rzadkosc.value == "zwykle" && typ.value == "budynek") {
+            if (karta.classList.contains("sanowar") && karta.classList.contains("zwykle") && karta.classList.contains("budynek")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Sanowar" && typ.value == "budynek"){
-            if(karta.classList.contains("sanowar") && karta.classList.contains("budynek")){
+        else if (nacja.value == "Sanowar" && typ.value == "budynek") {
+            if (karta.classList.contains("sanowar") && karta.classList.contains("budynek")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
         else if (nacja.value == "Sanowar" && rzadkosc.value == "dowodca") {
@@ -391,144 +393,144 @@ function filter() {
 
         //* ETHER
 
-        else if(nacja.value == "Ether" && rzadkosc.value == "dowodca" && typ.value == "jednostka"){
-            if(karta.classList.contains("ethet") && karta.classList.contains("dowodca") && karta.classList.contains("jednostka")){
+        else if (nacja.value == "Ether" && rzadkosc.value == "dowodca" && typ.value == "jednostka") {
+            if (karta.classList.contains("ethet") && karta.classList.contains("dowodca") && karta.classList.contains("jednostka")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Ether" && rzadkosc.value == "legendarne" && typ.value == "jednostka"){
-            if(karta.classList.contains("ether") && karta.classList.contains("legendarne") && karta.classList.contains("jednostka")){
+        else if (nacja.value == "Ether" && rzadkosc.value == "legendarne" && typ.value == "jednostka") {
+            if (karta.classList.contains("ether") && karta.classList.contains("legendarne") && karta.classList.contains("jednostka")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Ether" && rzadkosc.value == "rzadkie" && typ.value == "jednostka"){
-            if(karta.classList.contains("ether") && karta.classList.contains("rzadkie") && karta.classList.contains("jednostka")){
+        else if (nacja.value == "Ether" && rzadkosc.value == "rzadkie" && typ.value == "jednostka") {
+            if (karta.classList.contains("ether") && karta.classList.contains("rzadkie") && karta.classList.contains("jednostka")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Ether" && rzadkosc.value == "zwykle" && typ.value == "jednostka"){
-            if(karta.classList.contains("ether") && karta.classList.contains("zwykle") && karta.classList.contains("jednostka")){
+        else if (nacja.value == "Ether" && rzadkosc.value == "zwykle" && typ.value == "jednostka") {
+            if (karta.classList.contains("ether") && karta.classList.contains("zwykle") && karta.classList.contains("jednostka")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Ether" && typ.value == "jednostka"){
-            if(karta.classList.contains("ether") && karta.classList.contains("jednostka")){
+        else if (nacja.value == "Ether" && typ.value == "jednostka") {
+            if (karta.classList.contains("ether") && karta.classList.contains("jednostka")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Ether" && rzadkosc.value == "dowodca" && typ.value == "dzialanie"){
-            if(karta.classList.contains("ethet") && karta.classList.contains("dowodca") && karta.classList.contains("dzialanie")){
+        else if (nacja.value == "Ether" && rzadkosc.value == "dowodca" && typ.value == "dzialanie") {
+            if (karta.classList.contains("ethet") && karta.classList.contains("dowodca") && karta.classList.contains("dzialanie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Ether" && rzadkosc.value == "legendarne" && typ.value == "dzialanie"){
-            if(karta.classList.contains("ether") && karta.classList.contains("legendarne") && karta.classList.contains("dzialanie")){
+        else if (nacja.value == "Ether" && rzadkosc.value == "legendarne" && typ.value == "dzialanie") {
+            if (karta.classList.contains("ether") && karta.classList.contains("legendarne") && karta.classList.contains("dzialanie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Ether" && rzadkosc.value == "rzadkie" && typ.value == "dzialanie"){
-            if(karta.classList.contains("ether") && karta.classList.contains("rzadkie") && karta.classList.contains("dzialanie")){
+        else if (nacja.value == "Ether" && rzadkosc.value == "rzadkie" && typ.value == "dzialanie") {
+            if (karta.classList.contains("ether") && karta.classList.contains("rzadkie") && karta.classList.contains("dzialanie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Ether" && rzadkosc.value == "zwykle" && typ.value == "dzialanie"){
-            if(karta.classList.contains("ether") && karta.classList.contains("zwykle") && karta.classList.contains("dzialanie")){
+        else if (nacja.value == "Ether" && rzadkosc.value == "zwykle" && typ.value == "dzialanie") {
+            if (karta.classList.contains("ether") && karta.classList.contains("zwykle") && karta.classList.contains("dzialanie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Ether" && typ.value == "dzialanie"){
-            if(karta.classList.contains("ether") && karta.classList.contains("dzialanie")){
+        else if (nacja.value == "Ether" && typ.value == "dzialanie") {
+            if (karta.classList.contains("ether") && karta.classList.contains("dzialanie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Ether" && rzadkosc.value == "dowodca" && typ.value == "zaklecie"){
-            if(karta.classList.contains("ethet") && karta.classList.contains("dowodca") && karta.classList.contains("zaklecie")){
+        else if (nacja.value == "Ether" && rzadkosc.value == "dowodca" && typ.value == "zaklecie") {
+            if (karta.classList.contains("ethet") && karta.classList.contains("dowodca") && karta.classList.contains("zaklecie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Ether" && rzadkosc.value == "legendarne" && typ.value == "zaklecie"){
-            if(karta.classList.contains("ether") && karta.classList.contains("legendarne") && karta.classList.contains("zaklecie")){
+        else if (nacja.value == "Ether" && rzadkosc.value == "legendarne" && typ.value == "zaklecie") {
+            if (karta.classList.contains("ether") && karta.classList.contains("legendarne") && karta.classList.contains("zaklecie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Ether" && rzadkosc.value == "rzadkie" && typ.value == "zaklecie"){
-            if(karta.classList.contains("ether") && karta.classList.contains("rzadkie") && karta.classList.contains("zaklecie")){
+        else if (nacja.value == "Ether" && rzadkosc.value == "rzadkie" && typ.value == "zaklecie") {
+            if (karta.classList.contains("ether") && karta.classList.contains("rzadkie") && karta.classList.contains("zaklecie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Ether" && rzadkosc.value == "zwykle" && typ.value == "zaklecie"){
-            if(karta.classList.contains("ether") && karta.classList.contains("zwykle") && karta.classList.contains("budynek")){
+        else if (nacja.value == "Ether" && rzadkosc.value == "zwykle" && typ.value == "zaklecie") {
+            if (karta.classList.contains("ether") && karta.classList.contains("zwykle") && karta.classList.contains("budynek")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Ether" && typ.value == "zaklecie"){
-            if(karta.classList.contains("ether") && karta.classList.contains("zaklecie")){
+        else if (nacja.value == "Ether" && typ.value == "zaklecie") {
+            if (karta.classList.contains("ether") && karta.classList.contains("zaklecie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Ether" && rzadkosc.value == "dowodca" && typ.value == "budynek"){
-            if(karta.classList.contains("ethet") && karta.classList.contains("dowodca") && karta.classList.contains("budynek")){
+        else if (nacja.value == "Ether" && rzadkosc.value == "dowodca" && typ.value == "budynek") {
+            if (karta.classList.contains("ethet") && karta.classList.contains("dowodca") && karta.classList.contains("budynek")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Ether" && rzadkosc.value == "legendarne" && typ.value == "budynek"){
-            if(karta.classList.contains("ether") && karta.classList.contains("legendarne") && karta.classList.contains("budynek")){
+        else if (nacja.value == "Ether" && rzadkosc.value == "legendarne" && typ.value == "budynek") {
+            if (karta.classList.contains("ether") && karta.classList.contains("legendarne") && karta.classList.contains("budynek")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Ether" && rzadkosc.value == "rzadkie" && typ.value == "budynek"){
-            if(karta.classList.contains("ether") && karta.classList.contains("rzadkie") && karta.classList.contains("budynek")){
+        else if (nacja.value == "Ether" && rzadkosc.value == "rzadkie" && typ.value == "budynek") {
+            if (karta.classList.contains("ether") && karta.classList.contains("rzadkie") && karta.classList.contains("budynek")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Ether" && rzadkosc.value == "zwykle" && typ.value == "budynek"){
-            if(karta.classList.contains("ether") && karta.classList.contains("zwykle") && karta.classList.contains("budynek")){
+        else if (nacja.value == "Ether" && rzadkosc.value == "zwykle" && typ.value == "budynek") {
+            if (karta.classList.contains("ether") && karta.classList.contains("zwykle") && karta.classList.contains("budynek")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Ether" && typ.value == "budynek"){
-            if(karta.classList.contains("ether") && karta.classList.contains("budynek")){
+        else if (nacja.value == "Ether" && typ.value == "budynek") {
+            if (karta.classList.contains("ether") && karta.classList.contains("budynek")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
 
@@ -570,144 +572,144 @@ function filter() {
 
         // SWIAT NIEUMARLYCH
 
-        else if(nacja.value == "Swiat_nieumarlych" && rzadkosc.value == "dowodca" && typ.value == "jednostka"){
-            if(karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("dowodca") && karta.classList.contains("jednostka")){
+        else if (nacja.value == "Swiat_nieumarlych" && rzadkosc.value == "dowodca" && typ.value == "jednostka") {
+            if (karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("dowodca") && karta.classList.contains("jednostka")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Swiat_nieumarlych" && rzadkosc.value == "legendarne" && typ.value == "jednostka"){
-            if(karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("legendarne") && karta.classList.contains("jednostka")){
+        else if (nacja.value == "Swiat_nieumarlych" && rzadkosc.value == "legendarne" && typ.value == "jednostka") {
+            if (karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("legendarne") && karta.classList.contains("jednostka")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Swiat_nieumarlych" && rzadkosc.value == "rzadkie" && typ.value == "jednostka"){
-            if(karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("rzadkie") && karta.classList.contains("jednostka")){
+        else if (nacja.value == "Swiat_nieumarlych" && rzadkosc.value == "rzadkie" && typ.value == "jednostka") {
+            if (karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("rzadkie") && karta.classList.contains("jednostka")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Swiat_nieumarlych" && rzadkosc.value == "zwykle" && typ.value == "jednostka"){
-            if(karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("zwykle") && karta.classList.contains("jednostka")){
+        else if (nacja.value == "Swiat_nieumarlych" && rzadkosc.value == "zwykle" && typ.value == "jednostka") {
+            if (karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("zwykle") && karta.classList.contains("jednostka")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Swiat_nieumarlych" && typ.value == "jednostka"){
-            if(karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("jednostka")){
+        else if (nacja.value == "Swiat_nieumarlych" && typ.value == "jednostka") {
+            if (karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("jednostka")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Swiat_nieumarlych" && rzadkosc.value == "dowodca" && typ.value == "dzialanie"){
-            if(karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("dowodca") && karta.classList.contains("dzialanie")){
+        else if (nacja.value == "Swiat_nieumarlych" && rzadkosc.value == "dowodca" && typ.value == "dzialanie") {
+            if (karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("dowodca") && karta.classList.contains("dzialanie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Swiat_nieumarlych" && rzadkosc.value == "legendarne" && typ.value == "dzialanie"){
-            if(karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("legendarne") && karta.classList.contains("dzialanie")){
+        else if (nacja.value == "Swiat_nieumarlych" && rzadkosc.value == "legendarne" && typ.value == "dzialanie") {
+            if (karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("legendarne") && karta.classList.contains("dzialanie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Swiat_nieumarlych" && rzadkosc.value == "rzadkie" && typ.value == "dzialanie"){
-            if(karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("rzadkie") && karta.classList.contains("dzialanie")){
+        else if (nacja.value == "Swiat_nieumarlych" && rzadkosc.value == "rzadkie" && typ.value == "dzialanie") {
+            if (karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("rzadkie") && karta.classList.contains("dzialanie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Swiat_nieumarlych" && rzadkosc.value == "zwykle" && typ.value == "dzialanie"){
-            if(karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("zwykle") && karta.classList.contains("dzialanie")){
+        else if (nacja.value == "Swiat_nieumarlych" && rzadkosc.value == "zwykle" && typ.value == "dzialanie") {
+            if (karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("zwykle") && karta.classList.contains("dzialanie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Swiat_nieumarlych" && typ.value == "dzialanie"){
-            if(karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("dzialanie")){
+        else if (nacja.value == "Swiat_nieumarlych" && typ.value == "dzialanie") {
+            if (karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("dzialanie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Swiat_nieumarlych" && rzadkosc.value == "dowodca" && typ.value == "zaklecie"){
-            if(karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("dowodca") && karta.classList.contains("zaklecie")){
+        else if (nacja.value == "Swiat_nieumarlych" && rzadkosc.value == "dowodca" && typ.value == "zaklecie") {
+            if (karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("dowodca") && karta.classList.contains("zaklecie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Swiat_nieumarlych" && rzadkosc.value == "legendarne" && typ.value == "zaklecie"){
-            if(karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("legendarne") && karta.classList.contains("zaklecie")){
+        else if (nacja.value == "Swiat_nieumarlych" && rzadkosc.value == "legendarne" && typ.value == "zaklecie") {
+            if (karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("legendarne") && karta.classList.contains("zaklecie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Swiat_nieumarlych" && rzadkosc.value == "rzadkie" && typ.value == "zaklecie"){
-            if(karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("rzadkie") && karta.classList.contains("zaklecie")){
+        else if (nacja.value == "Swiat_nieumarlych" && rzadkosc.value == "rzadkie" && typ.value == "zaklecie") {
+            if (karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("rzadkie") && karta.classList.contains("zaklecie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Swiat_nieumarlych" && rzadkosc.value == "zwykle" && typ.value == "zaklecie"){
-            if(karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("zwykle") && karta.classList.contains("zaklecie")){
+        else if (nacja.value == "Swiat_nieumarlych" && rzadkosc.value == "zwykle" && typ.value == "zaklecie") {
+            if (karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("zwykle") && karta.classList.contains("zaklecie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Swiat_nieumarlych" && typ.value == "zaklecie"){
-            if(karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("zaklecie")){
+        else if (nacja.value == "Swiat_nieumarlych" && typ.value == "zaklecie") {
+            if (karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("zaklecie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Swiat_nieumarlych" && rzadkosc.value == "dowodca" && typ.value == "budynek"){
-            if(karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("dowodca") && karta.classList.contains("budynek")){
+        else if (nacja.value == "Swiat_nieumarlych" && rzadkosc.value == "dowodca" && typ.value == "budynek") {
+            if (karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("dowodca") && karta.classList.contains("budynek")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Swiat_nieumarlych" && rzadkosc.value == "legendarne" && typ.value == "budynek"){
-            if(karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("legendarne") && karta.classList.contains("budynek")){
+        else if (nacja.value == "Swiat_nieumarlych" && rzadkosc.value == "legendarne" && typ.value == "budynek") {
+            if (karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("legendarne") && karta.classList.contains("budynek")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Swiat_nieumarlych" && rzadkosc.value == "rzadkie" && typ.value == "budynek"){
-            if(karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("rzadkie") && karta.classList.contains("budynek")){
+        else if (nacja.value == "Swiat_nieumarlych" && rzadkosc.value == "rzadkie" && typ.value == "budynek") {
+            if (karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("rzadkie") && karta.classList.contains("budynek")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Swiat_nieumarlych" && rzadkosc.value == "zwykle" && typ.value == "budynek"){
-            if(karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("zwykle") && karta.classList.contains("budynek")){
+        else if (nacja.value == "Swiat_nieumarlych" && rzadkosc.value == "zwykle" && typ.value == "budynek") {
+            if (karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("zwykle") && karta.classList.contains("budynek")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Swiat_nieumarlych" && typ.value == "budynek"){
-            if(karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("budynek")){
+        else if (nacja.value == "Swiat_nieumarlych" && typ.value == "budynek") {
+            if (karta.classList.contains("swiat_nieumarlych") && karta.classList.contains("budynek")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
         else if (nacja.value == "Swiat_nieumarlych" && rzadkosc.value == "dowodca") {
@@ -749,137 +751,137 @@ function filter() {
 
         //TODO NEUTRALNE
 
-        else if(nacja.value == "Neutralne" && rzadkosc.value == "dowodca" && typ.value == "jednostka"){
-            if(karta.classList.contains("neutralne") && karta.classList.contains("dowodca") && karta.classList.contains("jednostka")){
+        else if (nacja.value == "Neutralne" && rzadkosc.value == "dowodca" && typ.value == "jednostka") {
+            if (karta.classList.contains("neutralne") && karta.classList.contains("dowodca") && karta.classList.contains("jednostka")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Neutralne" && rzadkosc.value == "legendarne" && typ.value == "jednostka"){
-            if(karta.classList.contains("neutralne") && karta.classList.contains("legendarne") && karta.classList.contains("jednostka")){
+        else if (nacja.value == "Neutralne" && rzadkosc.value == "legendarne" && typ.value == "jednostka") {
+            if (karta.classList.contains("neutralne") && karta.classList.contains("legendarne") && karta.classList.contains("jednostka")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Neutralne" && rzadkosc.value == "rzadkie" && typ.value == "jednostka"){
-            if(karta.classList.contains("neutralne") && karta.classList.contains("rzadkie") && karta.classList.contains("jednostka")){
+        else if (nacja.value == "Neutralne" && rzadkosc.value == "rzadkie" && typ.value == "jednostka") {
+            if (karta.classList.contains("neutralne") && karta.classList.contains("rzadkie") && karta.classList.contains("jednostka")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Neutralne" && rzadkosc.value == "zwykle" && typ.value == "jednostka"){
-            if(karta.classList.contains("neutralne") && karta.classList.contains("zwykle") && karta.classList.contains("jednostka")){
+        else if (nacja.value == "Neutralne" && rzadkosc.value == "zwykle" && typ.value == "jednostka") {
+            if (karta.classList.contains("neutralne") && karta.classList.contains("zwykle") && karta.classList.contains("jednostka")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Neutralne" && rzadkosc.value == "dowodca" && typ.value == "dzialanie"){
-            if(karta.classList.contains("neutralne") && karta.classList.contains("dowodca") && karta.classList.contains("dzialanie")){
+        else if (nacja.value == "Neutralne" && rzadkosc.value == "dowodca" && typ.value == "dzialanie") {
+            if (karta.classList.contains("neutralne") && karta.classList.contains("dowodca") && karta.classList.contains("dzialanie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Neutralne" && rzadkosc.value == "legendarne" && typ.value == "dzialanie"){
-            if(karta.classList.contains("neutralne") && karta.classList.contains("legendarne") && karta.classList.contains("dzialanie")){
+        else if (nacja.value == "Neutralne" && rzadkosc.value == "legendarne" && typ.value == "dzialanie") {
+            if (karta.classList.contains("neutralne") && karta.classList.contains("legendarne") && karta.classList.contains("dzialanie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Neutralne" && rzadkosc.value == "rzadkie" && typ.value == "dzialanie"){
-            if(karta.classList.contains("neutralne") && karta.classList.contains("rzadkie") && karta.classList.contains("dzialanie")){
+        else if (nacja.value == "Neutralne" && rzadkosc.value == "rzadkie" && typ.value == "dzialanie") {
+            if (karta.classList.contains("neutralne") && karta.classList.contains("rzadkie") && karta.classList.contains("dzialanie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Neutralne" && rzadkosc.value == "zwykle" && typ.value == "dzialanie"){
-            if(karta.classList.contains("neutralne") && karta.classList.contains("zwykle") && karta.classList.contains("dzialanie")){
+        else if (nacja.value == "Neutralne" && rzadkosc.value == "zwykle" && typ.value == "dzialanie") {
+            if (karta.classList.contains("neutralne") && karta.classList.contains("zwykle") && karta.classList.contains("dzialanie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Neutralne" && typ.value == "dzialanie"){
-            if(karta.classList.contains("neutralne") && karta.classList.contains("dzialanie")){
+        else if (nacja.value == "Neutralne" && typ.value == "dzialanie") {
+            if (karta.classList.contains("neutralne") && karta.classList.contains("dzialanie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Neutralne" && rzadkosc.value == "dowodca" && typ.value == "zaklecie"){
-            if(karta.classList.contains("neutralne") && karta.classList.contains("dowodca") && karta.classList.contains("zaklecie")){
+        else if (nacja.value == "Neutralne" && rzadkosc.value == "dowodca" && typ.value == "zaklecie") {
+            if (karta.classList.contains("neutralne") && karta.classList.contains("dowodca") && karta.classList.contains("zaklecie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Neutralne" && rzadkosc.value == "legendarne" && typ.value == "zaklecie"){
-            if(karta.classList.contains("neutralne") && karta.classList.contains("legendarne") && karta.classList.contains("zaklecie")){
+        else if (nacja.value == "Neutralne" && rzadkosc.value == "legendarne" && typ.value == "zaklecie") {
+            if (karta.classList.contains("neutralne") && karta.classList.contains("legendarne") && karta.classList.contains("zaklecie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Neutralne" && rzadkosc.value == "rzadkie" && typ.value == "zaklecie"){
-            if(karta.classList.contains("neutralne") && karta.classList.contains("rzadkie") && karta.classList.contains("zaklecie")){
+        else if (nacja.value == "Neutralne" && rzadkosc.value == "rzadkie" && typ.value == "zaklecie") {
+            if (karta.classList.contains("neutralne") && karta.classList.contains("rzadkie") && karta.classList.contains("zaklecie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Neutralne" && rzadkosc.value == "zwykle" && typ.value == "zaklecie"){
-            if(karta.classList.contains("neutralne") && karta.classList.contains("zwykle") && karta.classList.contains("zaklecie")){
+        else if (nacja.value == "Neutralne" && rzadkosc.value == "zwykle" && typ.value == "zaklecie") {
+            if (karta.classList.contains("neutralne") && karta.classList.contains("zwykle") && karta.classList.contains("zaklecie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Neutralne" && typ.value == "zaklecie"){
-            if(karta.classList.contains("neutralne") && karta.classList.contains("zaklecie")){
+        else if (nacja.value == "Neutralne" && typ.value == "zaklecie") {
+            if (karta.classList.contains("neutralne") && karta.classList.contains("zaklecie")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Neutralne" && rzadkosc.value == "dowodca" && typ.value == "budynek"){
-            if(karta.classList.contains("neutralne") && karta.classList.contains("dowodca") && karta.classList.contains("budynek")){
+        else if (nacja.value == "Neutralne" && rzadkosc.value == "dowodca" && typ.value == "budynek") {
+            if (karta.classList.contains("neutralne") && karta.classList.contains("dowodca") && karta.classList.contains("budynek")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Neutralne" && rzadkosc.value == "legendarne" && typ.value == "budynek"){
-            if(karta.classList.contains("neutralne") && karta.classList.contains("legendarne") && karta.classList.contains("budynek")){
+        else if (nacja.value == "Neutralne" && rzadkosc.value == "legendarne" && typ.value == "budynek") {
+            if (karta.classList.contains("neutralne") && karta.classList.contains("legendarne") && karta.classList.contains("budynek")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Neutralne" && rzadkosc.value == "rzadkie" && typ.value == "budynek"){
-            if(karta.classList.contains("neutralne") && karta.classList.contains("rzadkie") && karta.classList.contains("budynek")){
+        else if (nacja.value == "Neutralne" && rzadkosc.value == "rzadkie" && typ.value == "budynek") {
+            if (karta.classList.contains("neutralne") && karta.classList.contains("rzadkie") && karta.classList.contains("budynek")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Neutralne" && rzadkosc.value == "zwykle" && typ.value == "budynek"){
-            if(karta.classList.contains("neutralne") && karta.classList.contains("zwykle") && karta.classList.contains("budynek")){
+        else if (nacja.value == "Neutralne" && rzadkosc.value == "zwykle" && typ.value == "budynek") {
+            if (karta.classList.contains("neutralne") && karta.classList.contains("zwykle") && karta.classList.contains("budynek")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
-        else if(nacja.value == "Neutralne" && typ.value == "budynek"){
-            if(karta.classList.contains("neutralne") && karta.classList.contains("budynek")){
+        else if (nacja.value == "Neutralne" && typ.value == "budynek") {
+            if (karta.classList.contains("neutralne") && karta.classList.contains("budynek")) {
                 karta.style.display = "block";
-            }else {
-                karta.style.display = 'none';   
+            } else {
+                karta.style.display = 'none';
             }
         }
         else if (nacja.value == "Neutralne" && rzadkosc.value == "legendarne") {
@@ -910,224 +912,224 @@ function filter() {
                 karta.style.display = 'none'
             }
         }
-        else if(nacja.value == "Wszystkie" && rzadkosc.value == "dowodca" && typ.value == "jednostka"){
+        else if (nacja.value == "Wszystkie" && rzadkosc.value == "dowodca" && typ.value == "jednostka") {
             if (karta.classList.contains("dowodca") && karta.classList.contains("jednostka")) {
                 karta.style.display = "block";
             } else {
                 karta.style.display = 'none'
             }
         }
-        else if(nacja.value == "Wszystkie" && rzadkosc.value == "legendarne" && typ.value == "jednostka"){
+        else if (nacja.value == "Wszystkie" && rzadkosc.value == "legendarne" && typ.value == "jednostka") {
             if (karta.classList.contains("legendarne") && karta.classList.contains("jednostka")) {
                 karta.style.display = "block";
             } else {
                 karta.style.display = 'none'
             }
         }
-        else if(nacja.value == "Wszystkie" && rzadkosc.value == "rzadkie" && typ.value == "jednostka"){
+        else if (nacja.value == "Wszystkie" && rzadkosc.value == "rzadkie" && typ.value == "jednostka") {
             if (karta.classList.contains("rzadkie") && karta.classList.contains("jednostka")) {
                 karta.style.display = "block";
             } else {
                 karta.style.display = 'none'
             }
         }
-        else if(nacja.value == "Wszystkie" && rzadkosc.value == "zwykle" && typ.value == "jednostka"){
+        else if (nacja.value == "Wszystkie" && rzadkosc.value == "zwykle" && typ.value == "jednostka") {
             if (karta.classList.contains("zwykle") && karta.classList.contains("jednostka")) {
                 karta.style.display = "block";
             } else {
                 karta.style.display = 'none'
             }
         }
-        else if(nacja.value == "Wszystkie" && rzadkosc.value == "dowodca" && typ.value == "dzialanie"){
+        else if (nacja.value == "Wszystkie" && rzadkosc.value == "dowodca" && typ.value == "dzialanie") {
             if (karta.classList.contains("dowodca") && karta.classList.contains("dzialanie")) {
                 karta.style.display = "block";
             } else {
                 karta.style.display = 'none'
             }
         }
-        else if(nacja.value == "Wszystkie" && rzadkosc.value == "legendarne" && typ.value == "dzialanie"){
+        else if (nacja.value == "Wszystkie" && rzadkosc.value == "legendarne" && typ.value == "dzialanie") {
             if (karta.classList.contains("legendarne") && karta.classList.contains("dzialanie")) {
                 karta.style.display = "block";
             } else {
                 karta.style.display = 'none'
             }
         }
-        else if(nacja.value == "Wszystkie" && rzadkosc.value == "rzadkie" && typ.value == "dzialanie"){
+        else if (nacja.value == "Wszystkie" && rzadkosc.value == "rzadkie" && typ.value == "dzialanie") {
             if (karta.classList.contains("rzadkie") && karta.classList.contains("dzialanie")) {
                 karta.style.display = "block";
             } else {
                 karta.style.display = 'none'
             }
         }
-        else if(nacja.value == "Wszystkie" && rzadkosc.value == "zwykle" && typ.value == "dzialanie"){
+        else if (nacja.value == "Wszystkie" && rzadkosc.value == "zwykle" && typ.value == "dzialanie") {
             if (karta.classList.contains("zwykle") && karta.classList.contains("dzialanie")) {
                 karta.style.display = "block";
             } else {
                 karta.style.display = 'none'
             }
         }
-        else if(nacja.value == "Wszystkie" && rzadkosc.value == "dowodca" && typ.value == "zaklecie"){
+        else if (nacja.value == "Wszystkie" && rzadkosc.value == "dowodca" && typ.value == "zaklecie") {
             if (karta.classList.contains("dowodca") && karta.classList.contains("zaklecie")) {
                 karta.style.display = "block";
             } else {
                 karta.style.display = 'none'
             }
         }
-        else if(nacja.value == "Wszystkie" && rzadkosc.value == "legendarne" && typ.value == "zaklecie"){
+        else if (nacja.value == "Wszystkie" && rzadkosc.value == "legendarne" && typ.value == "zaklecie") {
             if (karta.classList.contains("legendarne") && karta.classList.contains("zaklecie")) {
                 karta.style.display = "block";
             } else {
                 karta.style.display = 'none'
             }
         }
-        else if(nacja.value == "Wszystkie" && rzadkosc.value == "rzadkie" && typ.value == "zaklecie"){
+        else if (nacja.value == "Wszystkie" && rzadkosc.value == "rzadkie" && typ.value == "zaklecie") {
             if (karta.classList.contains("rzadkie") && karta.classList.contains("zaklecie")) {
                 karta.style.display = "block";
             } else {
                 karta.style.display = 'none'
             }
         }
-        else if(nacja.value == "Wszystkie" && rzadkosc.value == "zwykle" && typ.value == "zaklecie"){
+        else if (nacja.value == "Wszystkie" && rzadkosc.value == "zwykle" && typ.value == "zaklecie") {
             if (karta.classList.contains("zwykle") && karta.classList.contains("zaklecie")) {
                 karta.style.display = "block";
             } else {
                 karta.style.display = 'none'
             }
         }
-        else if(nacja.value == "Wszystkie" && rzadkosc.value == "dowodca" && typ.value == "budynek"){
+        else if (nacja.value == "Wszystkie" && rzadkosc.value == "dowodca" && typ.value == "budynek") {
             if (karta.classList.contains("dowodca") && karta.classList.contains("budynek")) {
                 karta.style.display = "block";
             } else {
                 karta.style.display = 'none'
             }
         }
-        else if(nacja.value == "Wszystkie" && rzadkosc.value == "legendarne" && typ.value == "budynek"){
+        else if (nacja.value == "Wszystkie" && rzadkosc.value == "legendarne" && typ.value == "budynek") {
             if (karta.classList.contains("legendarne") && karta.classList.contains("budynek")) {
                 karta.style.display = "block";
             } else {
                 karta.style.display = 'none'
             }
         }
-        else if(nacja.value == "Wszystkie" && rzadkosc.value == "rzadkie" && typ.value == "budynek"){
+        else if (nacja.value == "Wszystkie" && rzadkosc.value == "rzadkie" && typ.value == "budynek") {
             if (karta.classList.contains("rzadkie") && karta.classList.contains("budynek")) {
                 karta.style.display = "block";
             } else {
                 karta.style.display = 'none'
             }
         }
-        else if(nacja.value == "Wszystkie" && rzadkosc.value == "zwykle" && typ.value == "budynek"){
+        else if (nacja.value == "Wszystkie" && rzadkosc.value == "zwykle" && typ.value == "budynek") {
             if (karta.classList.contains("zwykle") && karta.classList.contains("budynek")) {
                 karta.style.display = "block";
             } else {
                 karta.style.display = 'none'
             }
         }
-        else if(rzadkosc.value == "dowodca" && typ.value == "jednostka"){
+        else if (rzadkosc.value == "dowodca" && typ.value == "jednostka") {
             if (karta.classList.contains("dowodca") && karta.classList.contains("jednostka")) {
                 karta.style.display = "block";
             } else {
                 karta.style.display = 'none'
             }
         }
-        else if(rzadkosc.value == "legendarne" && typ.value == "jednostka"){
+        else if (rzadkosc.value == "legendarne" && typ.value == "jednostka") {
             if (karta.classList.contains("legendarne") && karta.classList.contains("jednostka")) {
                 karta.style.display = "block";
             } else {
                 karta.style.display = 'none'
             }
         }
-        else if(rzadkosc.value == "rzadkie" && typ.value == "jednostka"){
+        else if (rzadkosc.value == "rzadkie" && typ.value == "jednostka") {
             if (karta.classList.contains("rzadkie") && karta.classList.contains("jednostka")) {
                 karta.style.display = "block";
             } else {
                 karta.style.display = 'none'
             }
         }
-        else if(rzadkosc.value == "zwykle" && typ.value == "jednostka"){
+        else if (rzadkosc.value == "zwykle" && typ.value == "jednostka") {
             if (karta.classList.contains("zwykle") && karta.classList.contains("jednostka")) {
                 karta.style.display = "block";
             } else {
                 karta.style.display = 'none'
             }
         }
-        else if( rzadkosc.value == "dowodca" && typ.value == "dzialanie"){
+        else if (rzadkosc.value == "dowodca" && typ.value == "dzialanie") {
             if (karta.classList.contains("dowodca") && karta.classList.contains("dzialanie")) {
                 karta.style.display = "block";
             } else {
                 karta.style.display = 'none'
             }
         }
-        else if( rzadkosc.value == "legendarne" && typ.value == "dzialanie"){
+        else if (rzadkosc.value == "legendarne" && typ.value == "dzialanie") {
             if (karta.classList.contains("legendarne") && karta.classList.contains("dzialanie")) {
                 karta.style.display = "block";
             } else {
                 karta.style.display = 'none'
             }
         }
-        else if(rzadkosc.value == "rzadkie" && typ.value == "dzialanie"){
+        else if (rzadkosc.value == "rzadkie" && typ.value == "dzialanie") {
             if (karta.classList.contains("rzadkie") && karta.classList.contains("dzialanie")) {
                 karta.style.display = "block";
             } else {
                 karta.style.display = 'none'
             }
         }
-        else if(rzadkosc.value == "zwykle" && typ.value == "dzialanie"){
+        else if (rzadkosc.value == "zwykle" && typ.value == "dzialanie") {
             if (karta.classList.contains("zwykle") && karta.classList.contains("dzialanie")) {
                 karta.style.display = "block";
             } else {
                 karta.style.display = 'none'
             }
         }
-        else if(rzadkosc.value == "dowodca" && typ.value == "zaklecie"){
+        else if (rzadkosc.value == "dowodca" && typ.value == "zaklecie") {
             if (karta.classList.contains("dowodca") && karta.classList.contains("zaklecie")) {
                 karta.style.display = "block";
             } else {
                 karta.style.display = 'none'
             }
         }
-        else if(rzadkosc.value == "legendarne" && typ.value == "zaklecie"){
+        else if (rzadkosc.value == "legendarne" && typ.value == "zaklecie") {
             if (karta.classList.contains("legendarne") && karta.classList.contains("zaklecie")) {
                 karta.style.display = "block";
             } else {
                 karta.style.display = 'none'
             }
         }
-        else if(rzadkosc.value == "rzadkie" && typ.value == "zaklecie"){
+        else if (rzadkosc.value == "rzadkie" && typ.value == "zaklecie") {
             if (karta.classList.contains("rzadkie") && karta.classList.contains("zaklecie")) {
                 karta.style.display = "block";
             } else {
                 karta.style.display = 'none'
             }
         }
-        else if( rzadkosc.value == "zwykle" && typ.value == "zaklecie"){
+        else if (rzadkosc.value == "zwykle" && typ.value == "zaklecie") {
             if (karta.classList.contains("zwykle") && karta.classList.contains("zaklecie")) {
                 karta.style.display = "block";
             } else {
                 karta.style.display = 'none'
             }
         }
-        else if(rzadkosc.value == "dowodca" && typ.value == "budynek"){
+        else if (rzadkosc.value == "dowodca" && typ.value == "budynek") {
             if (karta.classList.contains("dowodca") && karta.classList.contains("budynek")) {
                 karta.style.display = "block";
             } else {
                 karta.style.display = 'none'
             }
         }
-        else if( rzadkosc.value == "legendarne" && typ.value == "budynek"){
+        else if (rzadkosc.value == "legendarne" && typ.value == "budynek") {
             if (karta.classList.contains("legendarne") && karta.classList.contains("budynek")) {
                 karta.style.display = "block";
             } else {
                 karta.style.display = 'none'
             }
         }
-        else if(rzadkosc.value == "rzadkie" && typ.value == "budynek"){
+        else if (rzadkosc.value == "rzadkie" && typ.value == "budynek") {
             if (karta.classList.contains("rzadkie") && karta.classList.contains("budynek")) {
                 karta.style.display = "block";
             } else {
                 karta.style.display = 'none'
             }
         }
-        else if(rzadkosc.value == "zwykle" && typ.value == "budynek"){
+        else if (rzadkosc.value == "zwykle" && typ.value == "budynek") {
             if (karta.classList.contains("zwykle") && karta.classList.contains("budynek")) {
                 karta.style.display = "block";
             } else {
