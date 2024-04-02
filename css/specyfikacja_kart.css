@@ -2,14 +2,11 @@ main {
     height: 30vh
 }
 
-img {
+section img {
     width: 300px;
     margin: 20px 0
 }
 
-header {
-    height: 80px;
-}
 
 .back-to-top {
     width: 70px;
