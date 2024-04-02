@@ -4,7 +4,11 @@ main {
 
 section img {
     width: 300px;
-    margin: 20px 0
+    margin: 20px 0;
+    padding: 1px;
+    background-color: black;
+    box-shadow: 0 0 10px rgb(57, 57, 57);
+    border-radius: 5px;
 }
 
 
