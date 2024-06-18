@@ -1,8 +1,10 @@
+
+/** ŚWIATY STRONA SWIAT.HTML*/
+
 .swiat1 {
     width: 100%;
     min-height: 250px;
     background-color: rgb(10, 8, 7);
-
     border: 5px solid rgb(138, 120, 120);
     border-radius: 10px;
     display: flex;
@@ -12,7 +14,7 @@
 }
 
 .obraz-swiata1 img {
-    width: 125px;
+    width: 150px;
     height: 150px;
     object-fit: cover;
     margin: 20px
@@ -32,7 +34,10 @@
 }
 
 
-/* ŚWIATY PODSTRONY */
+
+/** ŚWIATY PODSTRONY */
+
+
 
 .swiat {
     display: flex;
@@ -91,6 +96,41 @@ b {
     text-decoration: underline;
 }
 
+/*?SLIDERY STRZAŁKOWE */
+
+.border-image{
+    position:relative
+}
+
+.image-slider2{
+    display:none
+}
+
+.arrow{
+    user-select: none;
+    width:25px;
+    height:50px;
+    background-color: rgba(0, 0, 0, 0.597);
+    position:absolute;
+    display:flex;
+    align-items: center;
+    cursor:pointer;
+    backdrop-filter:blur(1px);
+}
+
+
+.to-left{
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.to-right{
+    right:0;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+
 
 @media screen and (max-width:1000px) {
     .swiat {
@@ -100,4 +140,13 @@ b {
     .opis-swiata>p {
         padding: 15px
     }
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 500,
+  'GRAD' 0,
+  'opsz' 24
 }

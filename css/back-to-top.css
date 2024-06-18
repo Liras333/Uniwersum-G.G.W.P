@@ -1,0 +1,12 @@
+.back-to-top {
+    width: 70px;
+    height: 70px;
+    color: white;
+    background-color: rgba(24, 24, 24, 0.169);
+    position: fixed;
+    right: 5%;
+    bottom: 7%;
+    border-radius: 15px;
+    padding: 5px;
+    display: none
+}
