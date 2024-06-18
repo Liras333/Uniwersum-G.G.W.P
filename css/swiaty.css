@@ -34,36 +34,70 @@
 
 /* ŚWIATY PODSTRONY */
 
-.swiat{
+.swiat {
     display: flex;
     justify-content: center;
-    gap:30px
+    gap: 30px
 }
 
-.obraz-swiata h3{
+.obraz-swiata h3 {
     text-align: center;
 }
 
-.opis-swiata{
+.opis-swiata {
+    height: auto;
     font-weight: 300;
     text-indent: 16px;
-   
+    width: auto;
+    padding: 20px 15px;
+    margin: 20px 0;
+    border-radius: 15px;
+    border: 2px solid rgb(31, 31, 31);
+    background: linear-gradient(-25deg, rgb(24, 24, 24), rgb(0, 0, 0));
+}
+
+
+.opis-swiata li {
+    text-indent: 0px;
 }
 
 .opis-swiata p {
     line-height: 140%;
 }
 
-b{
+.opis-swiata h1 {
+    padding: 15px;
+    text-indent: 0;
+}
+
+b {
     font-weight: 500;
 }
 
-@media screen and (max-width:1000px){
-    .swiat{
-    flex-wrap: wrap;
+.nazwa-swiata {
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.opis-swiata a {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.66);
+    padding: 2px 4px;
+    border-radius: 5px;
+}
+
+.opis-swiata a:hover {
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width:1000px) {
+    .swiat {
+        flex-wrap: wrap;
     }
 
-    .opis-swiata > p{
-        padding:15px
+    .opis-swiata>p {
+        padding: 15px
     }
 }
