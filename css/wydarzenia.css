@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.swiat1 {
+    width: 100%;
+    min-height: 250px;
+    background-color: rgb(10, 8, 7);
+    border: 5px solid rgb(138, 120, 120);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.obraz-swiata1 img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 20px
+}
+
+.opis-swiata1 p {
+    margin: 0;
+    padding: 0px;
+    font-size: 1.1rem;
+    text-indent: 20px;
+
+}
+
+.opis-swiata1 .nazwa {
+    font-size: 3.2rem;
+    margin: 0;
+}
