@@ -116,18 +116,11 @@ b {
     align-items: center;
 }
 
-.div-obraz-popup {
-    display: flex;
-    justify-content: center;
-    width: 90%;
-    height: 80vh;
-    max-height: 100vh;
-}
 
 
 .obraz_popup {
-    width: auto;
-    height: auto;
+    position: absolute;
+    width: 80vw;
 }
 
 .close_popup {
@@ -136,12 +129,12 @@ b {
     right: 0;
     cursor: pointer;
     box-sizing: content-box;
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     margin: 20px;
     border-radius: 25px;
     backdrop-filter: blur(2px);
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.128);
 }
 
 /*?SLIDERY STRZAŁKOWE */
