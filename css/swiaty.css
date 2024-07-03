@@ -126,6 +126,24 @@ b {
     width: 80vw;
 }
 
+.link_popup{
+    position: absolute;
+    bottom:5%;
+    left:0;
+    padding:7px;
+    margin:5px;
+    background-color: rgba(0, 0, 0, 0.758);
+    backdrop-filter: blur(2px);
+    border-radius:10px;
+    box-shadow: 0 0 6px white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.link_popup:hover{
+    text-decoration: underline;
+}
+
 .close_popup {
     position: absolute;
     top: 0;
@@ -201,6 +219,11 @@ b {
 
     .obraz-swiata1>img {
         width: 300px;
+    }
+
+    .link_popup{
+        left:50%;
+        transform: translateX(-50%);
     }
 }
 
