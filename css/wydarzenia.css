@@ -12,7 +12,7 @@
     border: 5px solid rgb(138, 120, 120);
     border-radius: 10px;
     display: flex;
-    align-items: center;
+    align-items:center;
     gap: 15px;
 
 }
@@ -24,9 +24,10 @@
 
 }
 
-.opis-wydarzenia1 .nazwa {
-    font-size: 3.2rem;
+.opis-wydarzenia1 .nazwa  {
+    font-size: 2.8rem;
     margin: 0;
+    padding:0;
     text-indent: 20px;
 
 }
@@ -35,6 +36,9 @@
 
 /** WYDARZENIA PODSTRONY */
 
+h3{
+    text-align: center;
+}
 
 .wydarzenie {
     display: flex;
@@ -87,6 +91,12 @@ b {
 .opis-wydarzenia a:hover {
     text-decoration: underline;
 }
+
+.nazwa-swiata {
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 
 
 
