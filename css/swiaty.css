@@ -5,6 +5,10 @@
 }
 
 
+article{
+    min-height:50vh
+}
+
 .swiat1 {
     width: 100%;
     min-height: 250px;
