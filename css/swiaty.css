@@ -67,6 +67,16 @@ article{
     border-radius: 15px;
     border: 2px solid rgb(31, 31, 31);
     background: linear-gradient(-25deg, rgb(24, 24, 24), rgb(0, 0, 0));
+    
+}
+
+.image-slider{
+    transition:ease 0.4s
+}
+
+.image-slider:hover{
+    filter:brightness(1.1);
+    box-shadow:0 0 5px  rgba(255, 255, 255, 0.536)
 }
 
 
