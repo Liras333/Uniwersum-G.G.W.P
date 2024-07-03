@@ -1,0 +1,137 @@
+/** WYDARZENIA STRONA WYDARZENIA.HTML*/
+
+* {
+    box-sizing: border-box;
+}
+
+
+.przedmiot1 {
+    width: 100%;
+    min-height: 250px;
+    background-color: rgb(10, 8, 7);
+    border: 5px solid rgb(138, 120, 120);
+    border-radius: 10px;
+    display: flex;
+    align-items:center;
+    gap: 15px;
+
+}
+
+.opis-przedmiotu1 p {
+    margin: 0;
+    padding: 5px;
+    font-size: 1.1rem;
+
+}
+
+.opis-przedmiotu1 .nazwa  {
+    font-size: 2.8rem;
+    margin: 0;
+    padding:0;
+    text-indent: 20px;
+
+}
+
+
+
+/** WYDARZENIA PODSTRONY */
+
+h3{
+    text-align: center;
+}
+
+.przedmiot {
+    display: flex;
+    justify-content: center;
+    gap: 30px
+}
+
+.nazwa-przedmiotu{
+    text-indent: 16px;
+    font-weight: 500;
+}
+
+
+.opis-przedmiotu {
+    height: auto;
+    font-weight: 300;
+    font-family: 'Courier New', Courier, monospace;
+    width: auto;
+    padding: 20px 15px;
+    margin: 20px 0;
+    border-radius: 15px;
+    border: 2px solid rgb(31, 31, 31);
+    background: linear-gradient(-25deg, rgb(24, 24, 24), rgb(0, 0, 0));
+}
+
+.opis-przedmiotu p {
+    line-height: 140%;
+}
+
+.opis-przedmiotu h1 {
+    padding: 15px;
+    text-indent: 0;
+}
+
+b {
+    font-weight: 500;
+}
+
+.opis-przedmiotu a {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.66);
+    padding: 2px 4px;
+    border-radius: 5px;
+}
+
+.opis-przedmiotu a:hover {
+    text-decoration: underline;
+}
+
+.nazwa-swiata {
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
+@media screen and (max-width:1000px) {
+    .przedmiot {
+        flex-wrap: wrap;
+    }
+
+    .opis-przedmiotu>p {
+        padding: 15px
+    }
+}
+
+@media screen and (max-width:800px) {
+    .przedmiot1 {
+        flex-direction: column;
+    }
+
+    .opis-przedmiotu1 p {
+        margin: 2px 10px
+    }
+}
+
+@media screen and (max-width:375px) {
+    .opis-przedmiotu1 p {
+        text-indent: 0px;
+
+    }
+
+    .nazwa {
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+
+    }
+
+    .nazwa>strong {
+        font-size: 2rem;
+        margin: 0;
+    }
+}
