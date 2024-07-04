@@ -5,8 +5,8 @@
 }
 
 
-article{
-    min-height:50vh
+article {
+    min-height: 50vh
 }
 
 .swiat1 {
@@ -67,16 +67,16 @@ article{
     border-radius: 15px;
     border: 2px solid rgb(31, 31, 31);
     background: linear-gradient(-25deg, rgb(24, 24, 24), rgb(0, 0, 0));
-    
+
 }
 
-.image-slider{
-    transition:ease 0.4s
+.image-slider {
+    transition: ease 0.4s
 }
 
-.image-slider:hover{
-    filter:brightness(1.1);
-    box-shadow:0 0 5px  rgba(255, 255, 255, 0.536)
+.image-slider:hover {
+    filter: brightness(1.1);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.536)
 }
 
 
@@ -136,21 +136,21 @@ b {
     width: 80vw;
 }
 
-.link_popup{
+.link_popup {
     position: absolute;
-    bottom:5%;
-    left:0;
-    padding:7px;
-    margin:5px;
+    bottom: 5%;
+    left: 0;
+    padding: 7px;
+    margin: 5px;
     background-color: rgba(0, 0, 0, 0.758);
     backdrop-filter: blur(2px);
-    border-radius:10px;
+    border-radius: 10px;
     box-shadow: 0 0 6px white;
     text-decoration: none;
     text-align: center;
 }
 
-.link_popup:hover{
+.link_popup:hover {
     text-decoration: underline;
 }
 
@@ -190,12 +190,14 @@ b {
 .to-left {
     top: 50%;
     transform: translateY(-50%);
+    z-index: 999
 }
 
 .to-right {
     right: 0;
     top: 50%;
     transform: translateY(-50%);
+    z-index: 999
 }
 
 .img1 {
@@ -231,8 +233,8 @@ b {
         width: 300px;
     }
 
-    .link_popup{
-        left:50%;
+    .link_popup {
+        left: 50%;
         transform: translateX(-50%);
     }
 }
