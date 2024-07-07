@@ -186,9 +186,43 @@
                             1 OST</a></li>
                 </ul>
             </div>
+            <div class="hidden" style="display:none">
+            </div>
         </footer>
     </div>
-    <script src="javascript/index.js"></script>
+    <iframe src="postacie.html" style="display:none;"></iframe>
+    <script src=" javascript/index.js"></script>
+    <script src="javascript/postac-dnia.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const obrazy_tablica = localStorage.getItem('stored_obrazy')
+            const nazwy_tablica = localStorage.getItem('stored_nazwy')
+
+            let postac_zdjecie = document.querySelector('.img-baner img')
+            let postac_nazwa = document.querySelector('.img-baner p strong')
+
+
+            function strToTime(year, month, day) {
+                const date = new Date(year, month - 1, day);
+                let minuty = Math.floor(date.getTime() / 1000);
+
+                let index = minuty % obrazy_tablica.length - 1;
+
+                postac_zdjecie.src = obrazy_tablica[index];
+                postac_nazwa = nazwy_tablica[index]
+
+                console.log(postac_nazwa);
+            }
+
+            const data = new Date();
+            let year = data.getFullYear();
+            let month = data.getMonth();
+            let day = data.getDay();
+
+            strToTime(year, month, day)
+        })
+    </script>
 </body>
 
 </html>
