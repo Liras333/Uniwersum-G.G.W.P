@@ -20,13 +20,12 @@ function strToTime(year, month, day) {
     let minuty = Math.floor(date.getTime() / 1000);
 
     let index = minuty % obrazy_tablica.length;
-    if (index > obrazy_tablica.length) index = (minuty % obrazy_tablica.length) / 2;
+    if (index > obrazy_tablica.length) index = Math.floor((minuty % obrazy_tablica.length) / 2);
 
     postac_zdjecie.src = obrazy_tablica[index];
     postac_nazwa.textContent = nazwy_tablica[index]
 
 }
-
 
 const data = new Date();
 let year = data.getFullYear();
