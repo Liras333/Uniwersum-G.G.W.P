@@ -51,7 +51,7 @@ function sortuj() {
             container.appendChild(postac)
         })
     } else if (select.value == 'new') {
-        if (postacie[0].text.indexOf('Nooga') != -1) {
+        if (postacie[0].text.indexOf('Bülgerbass - Postrach Shekki') != -1) {
             postacie.reverse();
             console.log(postacie);
             container.innerHTML = "";
