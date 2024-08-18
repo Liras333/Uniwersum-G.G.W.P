@@ -17,26 +17,26 @@ nazwy.forEach((nazwa) => {
 
 function strToTime(year, month, day) {
     const date = new Date(year, month - 1, day);
-    const yesterday = new Date(year,month - 1, day - 1);
+    const yesterday = new Date(year, month - 1, day - 1);
     let minuty = Math.floor(date.getTime() / 1000);
     let index = minuty % obrazy_tablica.length;
-     
+
 
     //sprawdzanie poprawnosci danych
-    
-    if (yesterday % obrazy_tablica.length == date % obrazy_tablica.length){
+
+    if (yesterday % obrazy_tablica.length == date % obrazy_tablica.length) {
         index = (Math.floor(minuty / 4.12)) % obrazy_tablica.length;
     }
-    if(index < 0) {
+    if (index < 0) {
         index = (Math.floor(minuty / 3.14)) % obrazy_tablica.length;
-    } 
-    else if (index > obrazy_tablica.length){
-        index = Math.floor((minuty % obrazy_tablica.length) / 2) 
-    } 
-    
-    
+    }
+    else if (index > obrazy_tablica.length) {
+        index = Math.floor((minuty % obrazy_tablica.length) / 2)
+    }
+
+
     //console.log(index);
-    
+
     postac_zdjecie.src = obrazy_tablica[index];
     postac_nazwa.textContent = nazwy_tablica[index]
 

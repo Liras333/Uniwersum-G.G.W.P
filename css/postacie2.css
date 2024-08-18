@@ -1,0 +1,239 @@
+/** ŚWIATY STRONA SWIAT.HTML*/
+
+* {
+    box-sizing: border-box;
+}
+
+
+article {
+    min-height: 50vh
+}
+
+.swiat1 {
+    width: 100%;
+    min-height: 250px;
+    background-color: rgb(10, 8, 7);
+    border: 5px solid rgb(138, 120, 120);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.obraz-swiata1 img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 20px
+}
+
+.opis-swiata1 p {
+    margin: 0;
+    padding: 0px;
+    font-size: 1.1rem;
+    text-indent: 20px;
+
+}
+
+.opis-swiata1 .nazwa {
+    font-size: 3.2rem;
+    margin: 0;
+}
+
+
+
+/** ŚWIATY PODSTRONY */
+
+
+
+.swiat {
+    display: flex;
+    justify-content: center;
+    gap: 30px
+}
+
+.obraz-swiata h3 {
+    text-align: center;
+}
+
+.opis-swiata {
+    height: auto;
+    font-weight: 300;
+    text-indent: 16px;
+    width: auto;
+    padding: 20px 15px;
+    margin: 20px 0;
+    border-radius: 15px;
+    border: 2px solid rgb(31, 31, 31);
+    background: linear-gradient(-25deg, rgb(24, 24, 24), rgb(0, 0, 0));
+
+}
+
+.image-slider {
+    transition: ease 0.4s
+}
+
+.image-slider:hover {
+    filter: brightness(1.1);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.536)
+}
+
+
+.opis-swiata li {
+    text-indent: 0px;
+}
+
+.opis-swiata p {
+    line-height: 140%;
+}
+
+.opis-swiata h1 {
+    padding: 15px;
+    text-indent: 0;
+}
+
+b {
+    font-weight: 500;
+}
+
+.nazwa-swiata {
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.opis-swiata a {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.66);
+    padding: 2px 4px;
+    border-radius: 5px;
+}
+
+.opis-swiata a:hover {
+    text-decoration: underline;
+}
+
+
+.image-slider:hover {
+    cursor: pointer
+}
+
+section p {
+    padding: 10px;
+}
+
+/*? popup obraz postaci */
+
+
+.popup {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.639);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.obraz_popup {
+    position: absolute;
+    width: 80vw;
+}
+
+.link_popup {
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    padding: 7px;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.758);
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    box-shadow: 0 0 6px white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.link_popup:hover {
+    text-decoration: underline;
+}
+
+.close_popup {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    box-sizing: content-box;
+    width: 75px;
+    height: 75px;
+    margin: 20px;
+    border-radius: 25px;
+    backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.128);
+}
+
+
+
+@media screen and (max-width:1000px) {
+    .swiat {
+        flex-wrap: wrap;
+    }
+
+    .opis-swiata>p {
+        padding: 15px
+    }
+}
+
+@media screen and (max-width:800px) {
+    .swiat1 {
+        flex-direction: column;
+    }
+
+    .opis-swiata1 p {
+        margin: 2px 10px
+    }
+
+    .obraz-swiata1>img {
+        width: 300px;
+    }
+
+    .link_popup {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width:375px) {
+    .obraz-swiata1>img {
+        width: 200px;
+    }
+
+    .opis-swiata1 p {
+        text-indent: 0px;
+
+    }
+
+    .nazwa {
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+
+    }
+
+    .nazwa>strong {
+        font-size: 2rem;
+        margin: 0;
+    }
+}
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 500,
+        'GRAD' 0,
+        'opsz' 24
+}
