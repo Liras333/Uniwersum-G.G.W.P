@@ -40,7 +40,6 @@ select {
     width: 100%;
     min-height: 250px;
     background-color: rgb(10, 8, 7);
-
     border: 5px solid rgb(138, 120, 120);
     border-radius: 10px;
     display: flex;
@@ -75,8 +74,47 @@ section a {
     margin: 20px 0;
 }
 
+section h1{
+    text-align: center;
+}
+
 .tagi {
     display: none
+}
+form{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:20px
+}
+@media screen and (max-width: 480px) {
+    .postac{
+        flex-direction: column;
+    }
+
+    input{
+        width:275px
+    }
+
+    form{
+        gap: 0
+    }
+
+    .opis-postaci > p {
+        padding:0 10px 5px;
+    }
+
+    
+   
+
+    .obraz-postaci img{
+        width:auto
+    }
+}
+@media screen and (max-width:680px){
+    section h1{
+        font-size: 2rem
+    }
 }
 
 @media screen and (max-width:680px) {
@@ -97,3 +135,4 @@ section a {
         margin: 5px 0 10px 0
     }
 }
+
