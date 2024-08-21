@@ -124,6 +124,50 @@ section p {
     padding: 10px;
 }
 
+
+.obraz-swiata {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.powiazania {
+    box-sizing: border-box;
+    width: 300px;
+    height: 250px;
+
+}
+
+.powiazania>h3 {
+    padding: 5px;
+    border: 2px solid rgb(31, 31, 31);
+    border-bottom: none;
+}
+
+
+.wrapper {
+    box-sizing: border-box;
+    width: 300px;
+    height: 215px;
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    border: 2px solid rgb(31, 31, 31);
+}
+
+.card {
+    width: 300px;
+    background: linear-gradient(to top, rgb(10, 10, 10), rgb(0, 0, 0));
+    flex-shrink: 0;
+    scroll-snap-align: start;
+}
+
+.card p {
+    font-size: 1.03rem;
+    color: rgb(228, 228, 228)
+}
+
 /*? popup obraz postaci */
 
 
