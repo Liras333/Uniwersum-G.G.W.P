@@ -9,55 +9,22 @@ article {
     min-height: 50vh
 }
 
-.swiat1 {
-    width: 100%;
-    min-height: 250px;
-    background-color: rgb(10, 8, 7);
-    border: 5px solid rgb(138, 120, 120);
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-
-}
-
-.obraz-swiata1 img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    margin: 20px
-}
-
-.opis-swiata1 p {
-    margin: 0;
-    padding: 0px;
-    font-size: 1.1rem;
-    text-indent: 20px;
-
-}
-
-.opis-swiata1 .nazwa {
-    font-size: 3.2rem;
-    margin: 0;
-}
-
-
 
 /** ŚWIATY PODSTRONY */
 
 
 
-.swiat {
+.postac {
     display: flex;
     justify-content: center;
     gap: 30px
 }
 
-.obraz-swiata h3 {
+.obraz-postaci h3 {
     text-align: center;
 }
 
-.opis-swiata {
+.opis-postaci {
     height: auto;
     font-weight: 300;
     text-indent: 16px;
@@ -80,15 +47,15 @@ article {
 }
 
 
-.opis-swiata li {
+.opis-postaci li {
     text-indent: 0px;
 }
 
-.opis-swiata p {
+.opis-postaci p {
     line-height: 140%;
 }
 
-.opis-swiata h1 {
+.opis-postaci h1 {
     padding: 15px;
     text-indent: 0;
 }
@@ -97,19 +64,19 @@ b {
     font-weight: 500;
 }
 
-.nazwa-swiata {
+.nazwa-postaci {
     font-weight: 500;
     font-family: 'Courier New', Courier, monospace;
 }
 
-.opis-swiata a {
+.opis-postaci a {
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0.66);
     padding: 2px 4px;
     border-radius: 5px;
 }
 
-.opis-swiata a:hover {
+.opis-postaci a:hover {
     text-decoration: underline;
 }
 
@@ -125,7 +92,7 @@ section p {
 }
 
 
-.obraz-swiata {
+.obraz-postaci {
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -224,27 +191,16 @@ section p {
 
 
 @media screen and (max-width:1000px) {
-    .swiat {
+    .postac {
         flex-wrap: wrap;
     }
 
-    .opis-swiata>p {
+    .opis-postaci>p {
         padding: 15px
     }
 }
 
 @media screen and (max-width:800px) {
-    .swiat1 {
-        flex-direction: column;
-    }
-
-    .opis-swiata1 p {
-        margin: 2px 10px
-    }
-
-    .obraz-swiata1>img {
-        width: 300px;
-    }
 
     .link_popup {
         left: 50%;
@@ -253,14 +209,6 @@ section p {
 }
 
 @media screen and (max-width:375px) {
-    .obraz-swiata1>img {
-        width: 200px;
-    }
-
-    .opis-swiata1 p {
-        text-indent: 0px;
-
-    }
 
     .nazwa {
         font-size: 16px;

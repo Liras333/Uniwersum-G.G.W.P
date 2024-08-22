@@ -308,7 +308,7 @@ header ul li a:hover::before {
 }
 
 h2 {
-    width: 50%
+    width: 100%
 }
 
 .napis-uniwersum>div {
@@ -485,7 +485,7 @@ footer ul li a:hover {
     }
 
     section h1 {
-        font-size: 2rem;
+        h2
     }
 
     footer div {
