@@ -151,9 +151,11 @@ section p {
 
 
 
+
+
 .obraz_popup {
     position: absolute;
-    width: 80vw;
+    width: 700px;
 }
 
 .link_popup {
@@ -189,7 +191,6 @@ section p {
 }
 
 
-
 @media screen and (max-width:1000px) {
     .postac {
         flex-wrap: wrap;
@@ -197,6 +198,11 @@ section p {
 
     .opis-postaci>p {
         padding: 15px
+    }
+
+    .obraz_popup {
+        position: block;
+        width: 75vw;
     }
 }
 
